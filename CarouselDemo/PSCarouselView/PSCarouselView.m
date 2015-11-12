@@ -8,6 +8,7 @@
 #define SCREEN_HEIGHT           [UIScreen mainScreen].bounds.size.height
 #define SCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width
 #define REUSE_IDENTIFIER        [PSCarouselCollectionCell description]
+#define MOVING_TIMEINTERVAL      3.0 //轮播滚动时间间隔
 
 #import "PSCarouselView.h"
 #import "PSCarouselCollectionCell.h"
@@ -50,7 +51,6 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
-
 #pragma mark - Public Method
 
 - (void)startMoving
@@ -63,7 +63,6 @@
     [self removeTimer];
 }
 
-
 #pragma mark - Private Method
 
 
@@ -71,7 +70,7 @@
 {
     [self removeTimer];
     
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(moveToNextPage) userInfo:nil repeats:YES];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:MOVING_TIMEINTERVAL target:self selector:@selector(moveToNextPage) userInfo:nil repeats:YES];
 }
 
 - (void)removeTimer
@@ -124,11 +123,11 @@
     
     if (![self.imageURLs count])
     {
-        [cell.adImageView setImage:[UIImage imageNamed:@"home_banner_loding"]];
+        [cell.adImageView setImage:self.placeholder];
         return cell;
     }
+    
     [cell.adImageView sd_setImageWithURL:[self.imageURLs objectAtIndex:indexPath.item] placeholderImage:self.placeholder];
-
     return cell;
 }
 

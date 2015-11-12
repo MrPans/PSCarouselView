@@ -12,7 +12,7 @@
 @optional
 
 #warning  SDWebImage库是必备的。使用本控件请确保导入了SDWebImage  
-#warning  SDWebImage is required. Please conform that you had import SDWebImage when use this widget;
+#warning  SDWebImage is required. Make sure that you had import SDWebImage when use this widget;
 
 /**
  *  告诉代理滚动到哪一页了

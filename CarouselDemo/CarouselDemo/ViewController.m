@@ -63,6 +63,9 @@
     return @[[NSURL URLWithString:IMAGE_URLSTRING0],
              [NSURL URLWithString:IMAGE_URLSTRING1]];
 }
+
+#pragma mark - PSCarouselDelegate
+
 - (void)carousel:(PSCarouselView *)carousel didMoveToPage:(NSUInteger)page
 {
     NSLog(@"PSCarouselView did MOVE to No.%ld page",page);
