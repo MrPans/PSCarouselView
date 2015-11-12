@@ -105,8 +105,8 @@
 
 - (void)registerNofitication
 {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidEnterBackGround) name:UIApplicationDidEnterBackgroundNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillEnterForGround) name:UIApplicationWillEnterForegroundNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillResignActive) name:UIApplicationWillResignActiveNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidBecomeActive) name:UIApplicationDidBecomeActiveNotification object:nil];
 }
 
 
@@ -207,13 +207,14 @@
 
 
 #pragma mark - Notification
-
-- (void)applicationDidEnterBackGround
+//程序被暂停的时候，应该停止计时器
+- (void)applicationWillResignActive
 {
     [self stopMoving];
 }
 
-- (void)applicationWillEnterForGround
+//程序从暂停状态回归的时候，重新启动计时器
+- (void)applicationDidBecomeActive
 {
     if (self.isAutoMoving)
     {
