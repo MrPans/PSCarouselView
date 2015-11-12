@@ -65,13 +65,13 @@
 }
 - (void)carousel:(PSCarouselView *)carousel didMoveToPage:(NSUInteger)page
 {
-    NSLog(@"%ld",page);
+    NSLog(@"PSCarouselView did MOVE to No.%ld page",page);
     self.pageControl.currentPage = page;
 }
 
 - (void)carousel:(PSCarouselView *)carousel didTouchPage:(NSUInteger)page
 {
-    NSLog(@"%ld",page);
+    NSLog(@"PSCarouselView did TOUCH No.%ld page",page);
 }
 
 @end
