@@ -23,10 +23,10 @@
 - (void)carousel:(PSCarouselView *)carousel didMoveToPage:(NSUInteger)page;
 
 /**
- *  用户点击的Cell 是imageUrls中哪一个index
+ *  告诉代理用户点击了某一页
  *
  *  @param carousel
- *  @param index    
+ *  @param page imageURL的index
  */
 - (void)carousel:(PSCarouselView *)carousel didTouchPage:(NSUInteger)page;
 @end
