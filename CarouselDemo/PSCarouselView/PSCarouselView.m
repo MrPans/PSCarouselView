@@ -174,11 +174,14 @@
     [self adjustCurrentPage:scrollView];
     
 }
+
+//用户手动拖拽，暂停一下自动轮播
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
 {
     [self removeTimer];
 }
 
+//用户拖拽完成，恢复自动轮播（如果需要的话）并依据滑动方向来进行相对应的界面变化
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
     if (self.isAutoMoving)
