@@ -39,7 +39,7 @@
 
 @property (nonatomic,getter=isAutoMoving) BOOL autoMoving;/**< 是否自动轮播,默认为NO*/
 
-@property (nonatomic) NSTimeInterval movingTimeInterval;/**< 滚动数率 默认为3.0 即3秒翻页一次*/
+@property (nonatomic) NSTimeInterval movingTimeInterval;/**< 滚动速率 默认为3.0 即3秒翻页一次*/
 
 @property (nonatomic, weak) id<PSCarouselDelegate> pageDelegate;
 
