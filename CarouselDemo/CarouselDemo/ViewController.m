@@ -51,6 +51,7 @@
     self.carouselView.placeholder = PLACEHOLDER_IMAGE;
     self.carouselView.pageDelegate = self;
     self.carouselView.autoMoving = YES;
+    self.carouselView.movingTimeInterval = 1.0f;
 }
 
 - (void)setupPageControl

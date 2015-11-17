@@ -8,7 +8,9 @@
 #define SCREEN_HEIGHT           [UIScreen mainScreen].bounds.size.height
 #define SCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width
 #define REUSE_IDENTIFIER        [PSCarouselCollectionCell description]
-#define MOVING_TIMEINTERVAL      3.0 //轮播滚动时间间隔
+
+#define MIN_MOVING_TIMEINTERVAL       0.1 //最小滚动时间间隔
+#define DEFAULT_MOVING_TIMEINTERVAL   3.0 //默认滚动时间间隔
 
 #import "PSCarouselView.h"
 #import "PSCarouselCollectionCell.h"
@@ -69,8 +71,8 @@
 - (void)addTimer
 {
     [self removeTimer];
-    
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:MOVING_TIMEINTERVAL target:self selector:@selector(moveToNextPage) userInfo:nil repeats:YES];
+    NSTimeInterval speed = self.movingTimeInterval < MIN_MOVING_TIMEINTERVAL ? DEFAULT_MOVING_TIMEINTERVAL : self.movingTimeInterval;
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:speed target:self selector:@selector(moveToNextPage) userInfo:nil repeats:YES];
 }
 
 - (void)removeTimer
