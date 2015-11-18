@@ -22,7 +22,7 @@
 
 
 @property (nonatomic, strong) NSTimer *timer;
-
+@property (nonatomic,getter=isNeedRefresh) BOOL needRefresh;
 
 @end
 
@@ -46,6 +46,18 @@
     }
     [self registerNib:[UINib nibWithNibName:REUSE_IDENTIFIER bundle:nil] forCellWithReuseIdentifier:REUSE_IDENTIFIER];
     [self registerNofitication];
+}
+
+
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    if (self.isNeedRefresh)
+    {
+        //最左边一张图其实是最后一张图，因此移动到第二张图，也就是imageURL的第一个URL的图。
+        [self scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:1 inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
+        self.needRefresh = NO;
+    }
 }
 
 - (void)dealloc
@@ -227,7 +239,6 @@
     }
 }
 
-
 #pragma mark - Getter and Setter
 
 - (NSArray *)imageURLs
@@ -251,7 +262,6 @@
         _imageURLs = [NSArray arrayWithArray:arr];
     }
     [self reloadData];
-    //最左边一张图其实是最后一张图，因此移动到第二张图，也就是imageURL的第一个URL的图。
-    [self scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:1 inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
+    _needRefresh = YES;
 }
 @end

@@ -193,11 +193,11 @@
 		3B4F00E11BF487450043EA5E /* PSCarouselView */ = {
 			isa = PBXGroup;
 			children = (
+				3B4F00E51BF487450043EA5E /* PSCarouselView.h */,
+				3B4F00E61BF487450043EA5E /* PSCarouselView.m */,
 				3B4F00E21BF487450043EA5E /* PSCarouselCollectionCell.h */,
 				3B4F00E31BF487450043EA5E /* PSCarouselCollectionCell.m */,
 				3B4F00E41BF487450043EA5E /* PSCarouselCollectionCell.xib */,
-				3B4F00E51BF487450043EA5E /* PSCarouselView.h */,
-				3B4F00E61BF487450043EA5E /* PSCarouselView.m */,
 			);
 			path = PSCarouselView;
 			sourceTree = SOURCE_ROOT;
