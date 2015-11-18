@@ -15,7 +15,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
   s.source       = { :git => "https://github.com/DeveloperPans/PSCarouselView.git", :tag => s.version.to_s }
-  s.source_files = 'CarouselDemo/PSCarouselView/**/*.{h,m,xib}'
+  s.source_files = 'CarouselDemo/PSCarouselView/**/*'
+  s.resource_bundles = {
+    'PSCarouselView' => ['CarouselDemo/PSCarouselView/**/*.xib']
+  }
+
   s.frameworks = 'UIKit'
   s.dependency 'SDWebImage', '~> 3.7.2'
 
