@@ -203,6 +203,10 @@
         [self addTimer];
     }
     
+
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     //向左滑动时切换imageView
     if (scrollView.contentOffset.x < SCREEN_WIDTH )
     {
@@ -219,10 +223,7 @@
     
     //用户手动拖拽的时候 移动到了哪一页
     [self adjustCurrentPage:scrollView];
-
 }
-
-
 #pragma mark - Notification
 //程序被暂停的时候，应该停止计时器
 - (void)applicationWillResignActive
