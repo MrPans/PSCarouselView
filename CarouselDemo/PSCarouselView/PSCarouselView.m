@@ -179,7 +179,7 @@
 
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
 {
-    if (scrollView.contentOffset.x == ([self.imageURLs count] - 1) * SCREEN_WIDTH )
+    if (scrollView.contentOffset.x >= ([self.imageURLs count] - 1) * SCREEN_WIDTH )
     {
         [self setContentOffset:CGPointMake(SCREEN_WIDTH, 0) animated:NO];
     }
