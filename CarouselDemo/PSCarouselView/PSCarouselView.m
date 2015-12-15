@@ -11,6 +11,7 @@
 
 #define MIN_MOVING_TIMEINTERVAL       0.1 //最小滚动时间间隔
 #define DEFAULT_MOVING_TIMEINTERVAL   3.0 //默认滚动时间间隔
+#define DELTA                         10  //误差
 
 #import "PSCarouselView.h"
 #import "PSCarouselCollectionCell.h"
@@ -177,6 +178,11 @@
 
 #pragma mark - UIScrollerViewDelegate
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    [self jumpWithContentOffset:scrollView.contentOffset];
+}
+
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
 {
     if (scrollView.contentOffset.x >= ([self.imageURLs count] - 1) * SCREEN_WIDTH )
@@ -202,26 +208,38 @@
     {
         [self addTimer];
     }
-    
-    //向左滑动时切换imageView
-    if (scrollView.contentOffset.x < SCREEN_WIDTH )
-    {
-        NSIndexPath *indexPath = [NSIndexPath indexPathForItem:[self.imageURLs count] - 2 inSection:0];
-        [self scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
-    }
-    
-    //向右滑动时切换imageView
-    if (scrollView.contentOffset.x  > ([self.imageURLs count] - 1) * SCREEN_WIDTH - 10)
-    {
-        NSIndexPath *indexPath = [NSIndexPath indexPathForItem:1 inSection:0];
-        [self scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
-    }
-    
+    [self jumpWithContentOffset:scrollView.contentOffset];
     //用户手动拖拽的时候 移动到了哪一页
     [self adjustCurrentPage:scrollView];
 
 }
+#pragma mark - Private
+- (void)jumpToLastImage
+{
+    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:[self.imageURLs count] - 2 inSection:0];
+    [self scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
+}
 
+- (void)jumpToFirstImage
+{
+    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:1 inSection:0];
+    [self scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
+}
+
+- (void)jumpWithContentOffset:(CGPoint)contentOffset
+{
+    //向左滑动时切换imageView
+    if (contentOffset.x <= 0)
+    {
+        [self jumpToLastImage];
+    }
+    
+    //向右滑动时切换imageView
+    if (contentOffset.x  > ([self.imageURLs count] - 1) * SCREEN_WIDTH - DELTA)
+    {
+        [self jumpToFirstImage];
+    }
+}
 
 #pragma mark - Notification
 //程序被暂停的时候，应该停止计时器
