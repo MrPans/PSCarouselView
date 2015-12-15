@@ -17,6 +17,9 @@
 
 @property (weak, nonatomic) IBOutlet PSCarouselView *carouselView;
 @property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
+@property (weak, nonatomic) IBOutlet UILabel *speedLabel;
+
+- (IBAction)didDragSpeedSlider:(UISlider *)sender;
 
 @end
 
@@ -78,4 +81,11 @@
     NSLog(@"PSCarouselView did TOUCH No.%ld page",page);
 }
 
+- (IBAction)didDragSpeedSlider:(UISlider *)sender
+{
+    self.speedLabel.text = [NSString stringWithFormat:@"滚动速度:%.1lf",sender.value];
+    self.carouselView.movingTimeInterval = sender.value;
+    [self.carouselView stopMoving];
+    [self.carouselView startMoving];
+}
 @end
