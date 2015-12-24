@@ -29,6 +29,14 @@
  *  @param page imageURL的index
  */
 - (void)carousel:(PSCarouselView *)carousel didTouchPage:(NSUInteger)page;
+
+/**
+ *  告诉代理，下载好了哪一张图片
+ *
+ *  @param carousel carousel
+ *  @param image    从imageURL中的URL里下载的图片
+ */
+- (void)carousel:(PSCarouselView *)carousel didDownloadImages:(UIImage *)image;
 @end
 
 

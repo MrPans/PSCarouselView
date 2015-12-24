@@ -142,7 +142,12 @@
         return cell;
     }
     
-    [cell.adImageView sd_setImageWithURL:[self.imageURLs objectAtIndex:indexPath.item] placeholderImage:self.placeholder];
+    [cell.adImageView sd_setImageWithURL:[self.imageURLs objectAtIndex:indexPath.item] placeholderImage:self.placeholder completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        if ([self.pageDelegate respondsToSelector:@selector(carousel:didDownloadImages:)])
+        {
+            [self.pageDelegate carousel:self didDownloadImages:image];
+        }
+    }];
     return cell;
 }
 
