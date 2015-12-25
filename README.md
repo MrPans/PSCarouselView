@@ -3,15 +3,21 @@
 
 A drop-in carousel view. Most of Apps put it in their first screen.
 
-###效果图 
+###Preview 
 ![image](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/PSCarouselView.gif)
 
-###开始使用 Getting Start
+### Getting Start
 
-使用CocoaPods导入（如果手动下载请跳过这一步）
+#####`推荐`使用CocoaPods导入
+搜索库，并在你的podfile文件中加入最新版
 
-    pod 'PSCarouselView', '~> 1.0.3'
+    pod search PSCarouselView
+    
+#####下载并手动载入
+下载zip，解压并把`PSCarouselView`文件夹以及里面的文件添加到你的工程。
 
+
+### Usage
 1. Storyboard拖拽一个`UICollectionView`到你要放轮播的位置，约束好大小
 2. Storyboard中将这个`CollectionView`的类设置为`PSCarouselView`
 3. 连接`IBOutlet`到`ViewController`

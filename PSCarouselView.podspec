@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PSCarouselView"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "A drop-in carousel view. Most of Apps put it in their first screen."
   s.description  = <<-DESC
                     A drop-in carousel view. Most of Apps put it in their first screen.Ease use and quick compose.
