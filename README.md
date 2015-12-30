@@ -9,9 +9,9 @@ A drop-in carousel view. Most of Apps put it in their first screen.
 ### Getting Start
 
 #####`推荐`使用CocoaPods导入
-搜索库，并在你的podfile文件中加入最新版
+在你的podfile文件中加入如下一行
 
-    pod search PSCarouselView
+    pod 'PSCarouselView'
     
 #####下载并手动载入
 下载zip，解压并把`PSCarouselView`文件夹以及里面的文件添加到你的工程。
