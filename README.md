@@ -1,5 +1,4 @@
-# PSCarouselView
-扔进你的项目就可以用了！实现了很多app都需要的首页广告轮播功能。
+# PSCarouselView (中文在后)
 
 A drop-in carousel view. Most of Apps put it in their first screen.
 
@@ -8,16 +7,46 @@ A drop-in carousel view. Most of Apps put it in their first screen.
 
 ### Getting Start
 
+#####`Recommend` Import with Cocoapods
+add follow line into your podfile:
+
+    pod 'PSCarouselView'
+    
+#####Import manually
+Download zip and unarchiver.Drag 'PSCarouselView' folder into your project.
+
+
+### Usage
+1. Drag A `UICollectionView` into your Storyboard and make sure your constraints has been settled.
+2. Set `PSCarouselView` as a custom class for this collectionView in Storyboard Inspector.
+3. connect `IBOutlet` to Your ViewController.
+4. set PSCarouselView's `imageURL` property.
+
+###Tips：
+1. Implement `PSCarouselViewDelegate` if you want to make a pageControl.
+2. `SDWebImage` framework is necessary.Make sure you had imported `SDWebImage` when import `PSCarouselView` manually.if you import with cocoapods,don't worry abount that.
+
+For more，download and see the demo。
+
+===============
+
+# PSCarouselView 
+扔进你的项目就可以用了！实现了很多app都需要的首页广告轮播功能。
+
+###预览图 
+![image](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/PSCarouselView.gif)
+
+### 导入库
 #####`推荐`使用CocoaPods导入
 在你的podfile文件中加入如下一行
 
     pod 'PSCarouselView'
     
-#####下载并手动载入
+#####下载并手动导入
 下载zip，解压并把`PSCarouselView`文件夹以及里面的文件添加到你的工程。
 
 
-### Usage
+### 使用方法
 1. Storyboard拖拽一个`UICollectionView`到你要放轮播的位置，约束好大小
 2. Storyboard中将这个`CollectionView`的类设置为`PSCarouselView`
 3. 连接`IBOutlet`到`ViewController`
@@ -29,4 +58,3 @@ A drop-in carousel view. Most of Apps put it in their first screen.
 
 详情请参阅Demo
 
-For more，download and see in demo。
