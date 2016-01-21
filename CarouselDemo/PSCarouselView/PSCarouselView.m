@@ -5,13 +5,11 @@
 //  Copyright (c) 2015年 Pan. All rights reserved.
 //
 
-#define SCREEN_HEIGHT           [UIScreen mainScreen].bounds.size.height
-#define SCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width
+#define SELF_WIDTH              self.frame.size.width
 #define REUSE_IDENTIFIER        [PSCarouselCollectionCell description]
 
 #define MIN_MOVING_TIMEINTERVAL       0.1 //最小滚动时间间隔
 #define DEFAULT_MOVING_TIMEINTERVAL   3.0 //默认滚动时间间隔
-#define DELTA                         10  //误差
 
 #import "PSCarouselView.h"
 #import "PSCarouselCollectionCell.h"
@@ -98,22 +96,16 @@
 
 - (void)moveToNextPage
 {
-    CGPoint newContentOffset = (CGPoint){self.contentOffset.x + SCREEN_WIDTH,0};
-    [self setContentOffset:newContentOffset animated:YES];
+    NSIndexPath *currentIndexPath = [self indexPathForItemAtPoint:self.contentOffset];
+    NSIndexPath *nextIndexPath = [NSIndexPath indexPathForItem:currentIndexPath.item + 1
+                                                     inSection:currentIndexPath.section];
+    [self scrollToItemAtIndexPath:nextIndexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
 }
 
-- (void)adjustCurrentPage:(UIScrollView *)scrollView
+- (void)tellDelegateCurrentPage
 {
-    NSInteger page = scrollView.contentOffset.x / SCREEN_WIDTH - 1;
-    
-    if (scrollView.contentOffset.x < SCREEN_WIDTH)
-    {
-        page = [self.imageURLs count] - 3;
-    }
-    else if (scrollView.contentOffset.x > SCREEN_WIDTH * ([self.imageURLs count] - 1))
-    {
-        page = 0;
-    }
+    NSIndexPath *indexPath = [self indexPathForItemAtPoint:self.contentOffset];
+    NSInteger page = indexPath.item - 1;
     if ([self.pageDelegate respondsToSelector:@selector(carousel:didMoveToPage:)])
     {
         [self.pageDelegate carousel:self didMoveToPage:page];
@@ -192,14 +184,13 @@
 
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
 {
-    if (scrollView.contentOffset.x >= ([self.imageURLs count] - 1) * SCREEN_WIDTH )
+    NSIndexPath *indexPath = [self indexPathForItemAtPoint:scrollView.contentOffset];
+    //轮播滚动到最后一页的那一份动画不需要告诉代理跳转到哪一页了。
+    if (indexPath.item < (self.imageURLs.count - 1))
     {
-        [self setContentOffset:CGPointMake(SCREEN_WIDTH, 0) animated:NO];
+        //轮播滚动的时候 移动到了哪一页
+        [self tellDelegateCurrentPage];
     }
-    
-    //轮播滚动的时候 移动到了哪一页
-    [self adjustCurrentPage:scrollView];
-    
 }
 
 //用户手动拖拽，暂停一下自动轮播
@@ -217,7 +208,7 @@
     }
     [self jumpWithContentOffset:scrollView.contentOffset];
     //用户手动拖拽的时候 移动到了哪一页
-    [self adjustCurrentPage:scrollView];
+    [self tellDelegateCurrentPage];
 
 }
 #pragma mark - Private
@@ -240,9 +231,8 @@
     {
         [self jumpToLastImage];
     }
-    
     //向右滑动时切换imageView
-    if (contentOffset.x  > ([self.imageURLs count] - 1) * SCREEN_WIDTH - DELTA)
+    if (contentOffset.x >= ([self.imageURLs count] - 1) * SELF_WIDTH)
     {
         [self jumpToFirstImage];
     }
