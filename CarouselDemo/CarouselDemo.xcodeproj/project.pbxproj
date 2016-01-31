@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B0ECD7E1B7CA1EF000E74F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0ECD7D1B7CA1EF000E74F9 /* main.m */; };
-		3B0ECD811B7CA1EF000E74F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0ECD801B7CA1EF000E74F9 /* AppDelegate.m */; };
-		3B0ECD841B7CA1EF000E74F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0ECD831B7CA1EF000E74F9 /* ViewController.m */; };
 		3B0ECD871B7CA1EF000E74F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ECD851B7CA1EF000E74F9 /* Main.storyboard */; };
 		3B0ECD891B7CA1EF000E74F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ECD881B7CA1EF000E74F9 /* Images.xcassets */; };
 		3B0ECD8C1B7CA1EF000E74F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ECD8A1B7CA1EF000E74F9 /* LaunchScreen.xib */; };
+		3B4204B41C50AD22003CCB25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204B31C50AD22003CCB25 /* ViewController.m */; };
+		3B4204B91C50AD2C003CCB25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204B61C50AD2C003CCB25 /* AppDelegate.m */; };
+		3B4204BA1C50AD2C003CCB25 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B4204B71C50AD2C003CCB25 /* Info.plist */; };
+		3B4204BB1C50AD2C003CCB25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204B81C50AD2C003CCB25 /* main.m */; };
+		3B4204BF1C50AD3D003CCB25 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204BE1C50AD3D003CCB25 /* DemoTableViewController.m */; };
 		3B4CBB8A1BFCE16B0042958C /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB6E1BFCE16B0042958C /* NSData+ImageContentType.m */; };
 		3B4CBB8B1BFCE16B0042958C /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB701BFCE16B0042958C /* SDImageCache.m */; };
 		3B4CBB8C1BFCE16B0042958C /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB721BFCE16B0042958C /* SDWebImageCompat.m */; };
@@ -34,15 +36,17 @@
 
 /* Begin PBXFileReference section */
 		3B0ECD781B7CA1EF000E74F9 /* CarouselDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B0ECD7C1B7CA1EF000E74F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B0ECD7D1B7CA1EF000E74F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3B0ECD7F1B7CA1EF000E74F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3B0ECD801B7CA1EF000E74F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B0ECD821B7CA1EF000E74F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B0ECD831B7CA1EF000E74F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3B0ECD861B7CA1EF000E74F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B0ECD881B7CA1EF000E74F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3B0ECD8B1B7CA1EF000E74F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B4204B21C50AD22003CCB25 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B4204B31C50AD22003CCB25 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B4204B51C50AD2C003CCB25 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SupportingFile/AppDelegate.h; sourceTree = "<group>"; };
+		3B4204B61C50AD2C003CCB25 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SupportingFile/AppDelegate.m; sourceTree = "<group>"; };
+		3B4204B71C50AD2C003CCB25 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFile/Info.plist; sourceTree = "<group>"; };
+		3B4204B81C50AD2C003CCB25 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFile/main.m; sourceTree = "<group>"; };
+		3B4204BD1C50AD3D003CCB25 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		3B4204BE1C50AD3D003CCB25 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
 		3B4CBB6D1BFCE16B0042958C /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		3B4CBB6E1BFCE16B0042958C /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		3B4CBB6F1BFCE16B0042958C /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -112,7 +116,7 @@
 				3B0ECD851B7CA1EF000E74F9 /* Main.storyboard */,
 				3B0ECD881B7CA1EF000E74F9 /* Images.xcassets */,
 				3B4F00E11BF487450043EA5E /* PSCarouselView */,
-				3B0ECDA81B7CA378000E74F9 /* DemoViewController */,
+				3B0ECDA81B7CA378000E74F9 /* Demo */,
 				3B4CBB6C1BFCE16B0042958C /* SDWebImage */,
 				3B0ECD7B1B7CA1EF000E74F9 /* Supporting Files */,
 			);
@@ -122,22 +126,48 @@
 		3B0ECD7B1B7CA1EF000E74F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B4204B51C50AD2C003CCB25 /* AppDelegate.h */,
+				3B4204B61C50AD2C003CCB25 /* AppDelegate.m */,
+				3B4204B71C50AD2C003CCB25 /* Info.plist */,
+				3B4204B81C50AD2C003CCB25 /* main.m */,
 				3B0ECD8A1B7CA1EF000E74F9 /* LaunchScreen.xib */,
-				3B0ECD7F1B7CA1EF000E74F9 /* AppDelegate.h */,
-				3B0ECD801B7CA1EF000E74F9 /* AppDelegate.m */,
-				3B0ECD7C1B7CA1EF000E74F9 /* Info.plist */,
-				3B0ECD7D1B7CA1EF000E74F9 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3B0ECDA81B7CA378000E74F9 /* DemoViewController */ = {
+		3B0ECDA81B7CA378000E74F9 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				3B0ECD821B7CA1EF000E74F9 /* ViewController.h */,
-				3B0ECD831B7CA1EF000E74F9 /* ViewController.m */,
+				3B4204C01C50AD43003CCB25 /* CarouselInCollectionView */,
+				3B4204BC1C50AD3D003CCB25 /* CarouselInTableView */,
+				3B4204B11C50AD22003CCB25 /* CarouselInView */,
 			);
-			name = DemoViewController;
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		3B4204B11C50AD22003CCB25 /* CarouselInView */ = {
+			isa = PBXGroup;
+			children = (
+				3B4204B21C50AD22003CCB25 /* ViewController.h */,
+				3B4204B31C50AD22003CCB25 /* ViewController.m */,
+			);
+			path = CarouselInView;
+			sourceTree = "<group>";
+		};
+		3B4204BC1C50AD3D003CCB25 /* CarouselInTableView */ = {
+			isa = PBXGroup;
+			children = (
+				3B4204BD1C50AD3D003CCB25 /* DemoTableViewController.h */,
+				3B4204BE1C50AD3D003CCB25 /* DemoTableViewController.m */,
+			);
+			path = CarouselInTableView;
+			sourceTree = "<group>";
+		};
+		3B4204C01C50AD43003CCB25 /* CarouselInCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CarouselInCollectionView;
 			sourceTree = "<group>";
 		};
 		3B4CBB6C1BFCE16B0042958C /* SDWebImage */ = {
@@ -248,6 +278,7 @@
 				3B0ECD871B7CA1EF000E74F9 /* Main.storyboard in Resources */,
 				3B0ECD8C1B7CA1EF000E74F9 /* LaunchScreen.xib in Resources */,
 				3B0ECD891B7CA1EF000E74F9 /* Images.xcassets in Resources */,
+				3B4204BA1C50AD2C003CCB25 /* Info.plist in Resources */,
 				3B4F00E81BF487450043EA5E /* PSCarouselCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,21 +293,22 @@
 				3B4CBB951BFCE16B0042958C /* UIImageView+HighlightedWebCache.m in Sources */,
 				3B4CBB941BFCE16B0042958C /* UIImage+MultiFormat.m in Sources */,
 				3B4CBB8F1BFCE16B0042958C /* SDWebImageDownloaderOperation.m in Sources */,
-				3B0ECD841B7CA1EF000E74F9 /* ViewController.m in Sources */,
 				3B4CBB8C1BFCE16B0042958C /* SDWebImageCompat.m in Sources */,
+				3B4204B91C50AD2C003CCB25 /* AppDelegate.m in Sources */,
 				3B4CBB971BFCE16B0042958C /* UIView+WebCacheOperation.m in Sources */,
 				3B4CBB931BFCE16B0042958C /* UIImage+GIF.m in Sources */,
 				3B4CBB911BFCE16B0042958C /* SDWebImagePrefetcher.m in Sources */,
-				3B0ECD811B7CA1EF000E74F9 /* AppDelegate.m in Sources */,
+				3B4204B41C50AD22003CCB25 /* ViewController.m in Sources */,
 				3B4F00E91BF487450043EA5E /* PSCarouselView.m in Sources */,
 				3B4CBB8E1BFCE16B0042958C /* SDWebImageDownloader.m in Sources */,
 				3B4CBB921BFCE16B0042958C /* UIButton+WebCache.m in Sources */,
-				3B0ECD7E1B7CA1EF000E74F9 /* main.m in Sources */,
+				3B4204BF1C50AD3D003CCB25 /* DemoTableViewController.m in Sources */,
 				3B4CBB8A1BFCE16B0042958C /* NSData+ImageContentType.m in Sources */,
 				3B4F00E71BF487450043EA5E /* PSCarouselCollectionCell.m in Sources */,
 				3B4CBB961BFCE16B0042958C /* UIImageView+WebCache.m in Sources */,
 				3B4CBB901BFCE16B0042958C /* SDWebImageManager.m in Sources */,
 				3B4CBB8D1BFCE16B0042958C /* SDWebImageDecoder.m in Sources */,
+				3B4204BB1C50AD2C003CCB25 /* main.m in Sources */,
 				3B4CBB8B1BFCE16B0042958C /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,7 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = CarouselDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CarouselDemo/SupportingFile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shengpan.$(PRODUCT_NAME:rfc1034identifier)";
@@ -402,7 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = CarouselDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CarouselDemo/SupportingFile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shengpan.$(PRODUCT_NAME:rfc1034identifier)";
