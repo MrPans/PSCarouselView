@@ -43,11 +43,11 @@
 @interface PSCarouselView : UICollectionView
 @property (nonatomic, strong) NSArray *imageURLs;/**< 必须赋值。只要给这个imageURL赋值，会自动获取图片。刷新请再次给此属性赋值*/
 
-@property (nonatomic, strong) UIImage *placeholder;/**< 没有轮播图时的占位图*/
+@property (nonatomic, strong) IBInspectable UIImage *placeholder;/**< 没有轮播图时的占位图*/
 
-@property (nonatomic,getter=isAutoMoving) BOOL autoMoving;/**< 是否自动轮播,默认为NO*/
+@property (nonatomic,getter=isAutoMoving) IBInspectable BOOL autoMoving;/**< 是否自动轮播,默认为NO*/
 
-@property (nonatomic) NSTimeInterval movingTimeInterval;/**< 滚动速率 默认为3.0 即3秒翻页一次*/
+@property (nonatomic) IBInspectable CGFloat movingTimeInterval;/**< 滚动速率 默认为3.0 即3秒翻页一次*/
 
 @property (nonatomic, weak) id<PSCarouselDelegate> pageDelegate;
 

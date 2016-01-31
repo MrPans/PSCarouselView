@@ -25,10 +25,22 @@
 
 @end
 
+//IB_DESIGNABLE
 @implementation PSCarouselView
 @synthesize imageURLs = _imageURLs;
 
 #pragma mark - Life Cycle
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if (self)
+    {
+        _movingTimeInterval = DEFAULT_MOVING_TIMEINTERVAL;
+        _autoMoving = NO;
+    }
+    return self;
+}
 
 - (void)awakeFromNib
 {
