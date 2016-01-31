@@ -124,16 +124,16 @@
             </objects>
             <point key="canvasLocation" x="719" y="322"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Carousel in TableView-->
         <scene sceneID="e8q-nX-dbS">
             <objects>
-                <tableViewController id="4zc-bv-zul" sceneMemberID="viewController">
+                <tableViewController id="4zc-bv-zul" customClass="DemoTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" sectionHeaderHeight="28" sectionFooterHeight="28" id="RrH-gO-VmW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="120" id="lGJ-rs-ih6">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CarouselCell" rowHeight="120" id="lGJ-rs-ih6" customClass="CarouselCell">
                                 <rect key="frame" x="0.0" y="92" width="320" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lGJ-rs-ih6" id="PH0-Kh-M06">
@@ -159,18 +159,24 @@
                                                 </mask>
                                             </variation>
                                         </collectionView>
-                                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="QfE-ot-2A4">
-                                            <rect key="frame" x="141" y="82" width="39" height="37"/>
-                                        </pageControl>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="pNg-ZP-hw2" secondAttribute="trailing" id="A7s-gO-fgT"/>
                                         <constraint firstAttribute="bottom" secondItem="pNg-ZP-hw2" secondAttribute="bottom" id="FVq-lj-WEu"/>
                                         <constraint firstItem="pNg-ZP-hw2" firstAttribute="leading" secondItem="PH0-Kh-M06" secondAttribute="leading" id="LhD-a0-cFN"/>
                                         <constraint firstItem="pNg-ZP-hw2" firstAttribute="top" secondItem="PH0-Kh-M06" secondAttribute="top" id="MQw-6e-4MH"/>
-                                        <constraint firstItem="QfE-ot-2A4" firstAttribute="bottom" secondItem="pNg-ZP-hw2" secondAttribute="bottom" id="PcQ-It-MCc"/>
-                                        <constraint firstItem="QfE-ot-2A4" firstAttribute="centerX" secondItem="pNg-ZP-hw2" secondAttribute="centerX" id="SG0-4n-ulh"/>
                                     </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="carouselView" destination="pNg-ZP-hw2" id="wLz-pI-Xp6"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" rowHeight="62" id="F9c-9M-QCi">
+                                <rect key="frame" x="0.0" y="212" width="320" height="62"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F9c-9M-QCi" id="CO0-G7-101">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="61.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -179,6 +185,7 @@
                             <outlet property="delegate" destination="4zc-bv-zul" id="nkK-Yh-9ku"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Carousel in TableView" id="Sfg-uZ-RkU"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5U-eP-ivF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
