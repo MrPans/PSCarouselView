@@ -62,7 +62,7 @@
 
 - (void)layoutSubviews
 {
-    if (self.isNeedRefresh)
+    if (self.isNeedRefresh && self.imageURLs.count)
     {
         //最左边一张图其实是最后一张图，因此移动到第二张图，也就是imageURL的第一个URL的图。
         [self scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:1 inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
