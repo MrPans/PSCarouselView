@@ -98,6 +98,7 @@
     [self removeTimer];
     NSTimeInterval speed = self.movingTimeInterval < MIN_MOVING_TIMEINTERVAL ? DEFAULT_MOVING_TIMEINTERVAL : self.movingTimeInterval;
     self.timer = [NSTimer scheduledTimerWithTimeInterval:speed target:self selector:@selector(moveToNextPage) userInfo:nil repeats:YES];
+    self.timer.tolerance = 0.1 * speed;// for increased power savings and responsiveness
 }
 
 - (void)removeTimer
@@ -290,5 +291,14 @@
     }
     [self reloadData];
     _needRefresh = YES;
+}
+
+- (void)setMovingTimeInterval:(CGFloat)movingTimeInterval
+{
+    _movingTimeInterval = movingTimeInterval;
+    if (self.timer)
+    {
+        [self startMoving];
+    }
 }
 @end

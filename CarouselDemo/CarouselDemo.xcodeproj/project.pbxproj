@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B007F301C605C4800380D27 /* DemoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B007F2F1C605C4800380D27 /* DemoCollectionViewController.m */; };
+		3B007F331C605C5800380D27 /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B007F321C605C5800380D27 /* DemoCollectionViewCell.m */; };
 		3B07E3881C5DF94F001F1C54 /* CarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B07E3871C5DF94F001F1C54 /* CarouselCell.m */; };
 		3B0ECD871B7CA1EF000E74F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ECD851B7CA1EF000E74F9 /* Main.storyboard */; };
 		3B0ECD891B7CA1EF000E74F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ECD881B7CA1EF000E74F9 /* Images.xcassets */; };
@@ -36,6 +38,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B007F2E1C605C4800380D27 /* DemoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewController.h; sourceTree = "<group>"; };
+		3B007F2F1C605C4800380D27 /* DemoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewController.m; sourceTree = "<group>"; };
+		3B007F311C605C5800380D27 /* DemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCell.h; sourceTree = "<group>"; };
+		3B007F321C605C5800380D27 /* DemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewCell.m; sourceTree = "<group>"; };
 		3B07E3841C5DF78D001F1C54 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = Resource/Macros.h; sourceTree = "<group>"; };
 		3B07E3861C5DF94F001F1C54 /* CarouselCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselCell.h; sourceTree = "<group>"; };
 		3B07E3871C5DF94F001F1C54 /* CarouselCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselCell.m; sourceTree = "<group>"; };
@@ -181,6 +187,10 @@
 		3B4204C01C50AD43003CCB25 /* CarouselInCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				3B007F2E1C605C4800380D27 /* DemoCollectionViewController.h */,
+				3B007F2F1C605C4800380D27 /* DemoCollectionViewController.m */,
+				3B007F311C605C5800380D27 /* DemoCollectionViewCell.h */,
+				3B007F321C605C5800380D27 /* DemoCollectionViewCell.m */,
 			);
 			path = CarouselInCollectionView;
 			sourceTree = "<group>";
@@ -316,11 +326,13 @@
 				3B4204B41C50AD22003CCB25 /* ViewController.m in Sources */,
 				3B4F00E91BF487450043EA5E /* PSCarouselView.m in Sources */,
 				3B4CBB8E1BFCE16B0042958C /* SDWebImageDownloader.m in Sources */,
+				3B007F301C605C4800380D27 /* DemoCollectionViewController.m in Sources */,
 				3B4CBB921BFCE16B0042958C /* UIButton+WebCache.m in Sources */,
 				3B4204BF1C50AD3D003CCB25 /* DemoTableViewController.m in Sources */,
 				3B4CBB8A1BFCE16B0042958C /* NSData+ImageContentType.m in Sources */,
 				3B07E3881C5DF94F001F1C54 /* CarouselCell.m in Sources */,
 				3B4F00E71BF487450043EA5E /* PSCarouselCollectionCell.m in Sources */,
+				3B007F331C605C5800380D27 /* DemoCollectionViewCell.m in Sources */,
 				3B4CBB961BFCE16B0042958C /* UIImageView+WebCache.m in Sources */,
 				3B4CBB901BFCE16B0042958C /* SDWebImageManager.m in Sources */,
 				3B4CBB8D1BFCE16B0042958C /* SDWebImageDecoder.m in Sources */,

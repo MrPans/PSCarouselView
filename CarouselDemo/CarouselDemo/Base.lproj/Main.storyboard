@@ -199,28 +199,49 @@
             </objects>
             <point key="canvasLocation" x="1117" y="322"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--Demo Collection View Controller-->
         <scene sceneID="TUi-yU-TUP">
             <objects>
-                <collectionViewController id="G12-ML-h6m" sceneMemberID="viewController">
+                <collectionViewController id="G12-ML-h6m" customClass="DemoCollectionViewController" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ZPv-Zc-2g8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="caF-Qd-XRJ">
-                            <size key="itemSize" width="50" height="50"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="caF-Qd-XRJ">
+                            <size key="itemSize" width="128" height="125"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gzB-c0-h9d">
-                                <rect key="frame" x="0.0" y="64" width="50" height="50"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DemoCollectionViewCell" id="gzB-c0-h9d" customClass="DemoCollectionViewCell">
+                                <rect key="frame" x="0.0" y="64" width="128" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="125"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="N7u-1u-GCd" customClass="PSCarouselView">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="125"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="XwO-24-f13">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <cells/>
+                                        </collectionView>
+                                    </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="N7u-1u-GCd" secondAttribute="bottom" id="8aI-dq-dFX"/>
+                                    <constraint firstItem="N7u-1u-GCd" firstAttribute="leading" secondItem="gzB-c0-h9d" secondAttribute="leading" id="EGo-UA-vtv"/>
+                                    <constraint firstAttribute="trailing" secondItem="N7u-1u-GCd" secondAttribute="trailing" id="d5U-7S-0w5"/>
+                                    <constraint firstItem="N7u-1u-GCd" firstAttribute="top" secondItem="gzB-c0-h9d" secondAttribute="top" id="sud-IN-RNg"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="carouselView" destination="N7u-1u-GCd" id="6Q3-di-DHm"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
