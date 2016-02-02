@@ -2,7 +2,14 @@
 
 A drop-in carousel view. Most of Apps put it in their first screen.
 
-###Preview 
+#### **update**
+
+`enhancement` Storyboard inspector Spported at version `1.1.0`
+
+![image](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/Inspector.png)
+ 
+
+### Preview 
 ![image](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/PSCarouselView.gif)
 
 ### Getting Start
@@ -32,6 +39,12 @@ For more，download and see the demo。
 
 # PSCarouselView 
 扔进你的项目就可以用了！实现了很多app都需要的首页广告轮播功能。
+
+#### **版本更新**
+
+`enhancement` 从`1.1.0`版本开始，支持故事板直接编辑属性，不用再写那么多初始化代码啦！
+
+![image](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/Inspector.png)
 
 ###预览图 
 ![image](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/PSCarouselView.gif)
