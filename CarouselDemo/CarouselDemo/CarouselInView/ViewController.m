@@ -72,7 +72,6 @@
 
 - (void)carousel:(PSCarouselView *)carousel didMoveToPage:(NSUInteger)page
 {
-    NSLog(@"PSCarouselView did MOVE to No.%ld page",page);
     self.pageControl.currentPage = page;
 }
 
@@ -81,9 +80,16 @@
     NSLog(@"PSCarouselView did TOUCH No.%ld page",page);
 }
 
+- (void)carousel:(PSCarouselView *)carousel
+didDownloadImages:(UIImage *)image
+          atPage:(NSUInteger)page
+{
+    NSLog(@"PSCarouselView did DOWNLOAD No.%ld page",page);
+}
+
 - (IBAction)didDragSpeedSlider:(UISlider *)sender
 {
-    self.speedLabel.text = [NSString stringWithFormat:@"滚动速度:%.1lf",sender.value];
+    self.speedLabel.text = [NSString stringWithFormat:@"滚动速度:%.1lf秒/次",sender.value];
     self.carouselView.movingTimeInterval = sender.value;
     [self.carouselView stopMoving];
     [self.carouselView startMoving];

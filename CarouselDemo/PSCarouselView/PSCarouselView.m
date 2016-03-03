@@ -150,9 +150,9 @@
     }
     
     [cell.adImageView sd_setImageWithURL:[self.imageURLs objectAtIndex:indexPath.item] placeholderImage:self.placeholder completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-        if ([self.pageDelegate respondsToSelector:@selector(carousel:didDownloadImages:)])
+        if ([self.pageDelegate respondsToSelector:@selector(carousel:didDownloadImages:atPage:)])
         {
-            [self.pageDelegate carousel:self didDownloadImages:image];
+            [self.pageDelegate carousel:self didDownloadImages:image atPage:[self pageWithIndexPath:indexPath]];
         }
     }];
     return cell;
@@ -166,6 +166,14 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    if ([self.pageDelegate respondsToSelector:@selector(carousel:didTouchPage:)])
+    {
+        [self.pageDelegate carousel:self didTouchPage:[self pageWithIndexPath:indexPath]];
+    }
+}
+
+- (NSUInteger)pageWithIndexPath:(NSIndexPath *)indexPath
+{
     NSUInteger page = 0;
     NSUInteger lastIndex = [self.imageURLs count] - 3;
     
@@ -173,7 +181,7 @@
     {
         page = lastIndex;
     }
-    else if (indexPath.item == lastIndex)
+    else if (indexPath.item == self.imageURLs.count - 1)
     {
         page = 0;
     }
@@ -181,12 +189,8 @@
     {
         page = indexPath.item - 1;
     }
-    if ([self.pageDelegate respondsToSelector:@selector(carousel:didTouchPage:)])
-    {
-        [self.pageDelegate carousel:self didTouchPage:page];
-    }
+    return page;
 }
-
 
 #pragma mark - UIScrollerViewDelegate
 
