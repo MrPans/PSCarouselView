@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/xianlinbox/iOSCIDemo.png)](https://travis-ci.
 org/xianlinbox/iOSCIDemo)
+![Pod Version](https://img.shields.io/cocoapods/v/PSCarouselView.svg?style=flat)
 
 A drop-in carousel view. Most of Apps put it in their first screen.
 
