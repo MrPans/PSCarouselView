@@ -1,6 +1,11 @@
 # PSCarouselView (中文在后)
 
+[![Build Status](https://travis-ci.org/xianlinbox/iOSCIDemo.png)](https://travis-ci.
+org/xianlinbox/iOSCIDemo)
+
 A drop-in carousel view. Most of Apps put it in their first screen.
+
+---
 
 #### **update**
 
