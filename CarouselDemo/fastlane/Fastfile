@@ -16,6 +16,11 @@
 
 # This is the minimum version number required.
 # Update this, if you use features of a newer version
+# import_from_git(
+#   url: 'https://github.com/AFNetworking/fastlane.git', 
+#   branch: '0.0.6'
+# )
+
 fastlane_version "1.64.0"
 
 default_platform :ios
