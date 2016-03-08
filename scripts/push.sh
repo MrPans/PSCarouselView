@@ -2,4 +2,4 @@
 
 source ~/.rvm/scripts/rvm
 rvm use default
-pod trunk push --verbose --allow-warnings
+pod trunk push --allow-warnings --verbose
