@@ -109,10 +109,13 @@
 
 - (void)moveToNextPage
 {
-    NSIndexPath *currentIndexPath = [self indexPathForItemAtPoint:self.contentOffset];
-    NSIndexPath *nextIndexPath = [NSIndexPath indexPathForItem:currentIndexPath.item + 1
-                                                     inSection:currentIndexPath.section];
-    [self scrollToItemAtIndexPath:nextIndexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+    if (self.imageURLs.count > 1)
+    {
+        NSIndexPath *currentIndexPath = [self indexPathForItemAtPoint:self.contentOffset];
+        NSIndexPath *nextIndexPath = [NSIndexPath indexPathForItem:currentIndexPath.item + 1
+                                                         inSection:currentIndexPath.section];
+        [self scrollToItemAtIndexPath:nextIndexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+    }
 }
 
 - (void)tellDelegateCurrentPage
