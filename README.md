@@ -1,7 +1,9 @@
 # PSCarouselView (中文在后)
 
-![Build Status](https://travis-ci.org/DeveloperPans/PSCarouselView.svg?branch=master)
-![Pod Version](https://img.shields.io/cocoapods/v/PSCarouselView.svg?style=flat)
+[![Build Status](https://travis-ci.org/DeveloperPans/PSCarouselView.svg?branch=master)](https://travis-ci.org/DeveloperPans/PSCarouselView)
+[![Pod Version](https://img.shields.io/cocoapods/v/PSCarouselView.svg?style=flat)](http://cocoapods.org/pods/PSCarouselView)
+[![License](https://img.shields.io/cocoapods/l/PSCarouselView.svg?style=flat)](http://cocoapods.org/pods/PSCarouselView) 
+[![Platform](https://img.shields.io/cocoapods/p/PSCarouselView.svg?style=flat)](http://cocoapods.org/pods/PSCarouselView)
 
 A drop-in carousel view. Most of Apps put it in their first screen.
 
