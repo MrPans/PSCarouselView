@@ -87,6 +87,7 @@
 
 - (void)setup
 {
+    _imageViewMode = UIViewContentModeScaleAspectFill;
     _movingTimeInterval = DEFAULT_MOVING_TIMEINTERVAL;
     _autoMoving = NO;
 
@@ -158,7 +159,9 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     PSCarouselCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:REUSE_IDENTIFIER forIndexPath:indexPath];
-    
+
+    cell.adImageView.contentMode = self.imageViewMode;
+
     if (![self.imageURLs count])
     {
         [cell.adImageView setImage:self.placeholder];
