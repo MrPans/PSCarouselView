@@ -31,12 +31,32 @@
 
 #pragma mark - Life Cycle
 
-- (instancetype)initWithFrame:(CGRect)frame
+- (instancetype)initWithFrame:(CGRect)frame collectionViewLayout:(UICollectionViewLayout *)layout
 {
-  self = [super initWithFrame:frame];
+  self = [super initWithFrame:frame collectionViewLayout:layout];
   if (self)
   {
       [self setup];
+  }
+  return self;
+}
+
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+  self = [self initWithFrame:frame collectionViewLayout:[[UICollectionViewFlowLayout alloc] init]];
+  if (self)
+  {
+  }
+  return self;
+}
+
+
+- (instancetype)init
+{
+  self = [self initWithFrame:CGRectZero];
+  if (self)
+  {
   }
   return self;
 }

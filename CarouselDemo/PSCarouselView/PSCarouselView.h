@@ -42,6 +42,7 @@
 
 
 @interface PSCarouselView : UICollectionView
+
 @property (nonatomic, strong) NSArray *imageURLs;/**< 必须赋值。只要给这个imageURL赋值，会自动获取图片。刷新请再次给此属性赋值*/
 
 @property (nonatomic, strong) IBInspectable UIImage *placeholder;/**< 没有轮播图时的占位图*/
