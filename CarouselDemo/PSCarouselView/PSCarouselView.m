@@ -31,32 +31,25 @@
 
 #pragma mark - Life Cycle
 
+- (instancetype)initWithFrame:(CGRect)frame
+{
+  self = [super initWithFrame:frame];
+  if (self)
+  {
+      [self setup];
+  }
+  return self;
+}
+
+
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super initWithCoder:aDecoder];
     if (self)
     {
-        _movingTimeInterval = DEFAULT_MOVING_TIMEINTERVAL;
-        _autoMoving = NO;
+        [self setup];
     }
     return self;
-}
-
-- (void)awakeFromNib
-{
-    self.delegate = self;
-    self.dataSource = self;
-    self.pagingEnabled = YES;
-    self.showsHorizontalScrollIndicator = NO;
-    if ([self.collectionViewLayout isKindOfClass:[UICollectionViewFlowLayout class]])
-    {
-        UICollectionViewFlowLayout *layout = (UICollectionViewFlowLayout *)self.collectionViewLayout;
-        layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-        layout.minimumInteritemSpacing = 0;
-        layout.minimumLineSpacing = 0;
-    }
-    [self registerNib:[UINib nibWithNibName:REUSE_IDENTIFIER bundle:nil] forCellWithReuseIdentifier:REUSE_IDENTIFIER];
-    [self registerNofitication];
 }
 
 
@@ -91,6 +84,26 @@
 }
 
 #pragma mark - Private Method
+
+- (void)setup
+{
+    _movingTimeInterval = DEFAULT_MOVING_TIMEINTERVAL;
+    _autoMoving = NO;
+
+    self.delegate = self;
+    self.dataSource = self;
+    self.pagingEnabled = YES;
+    self.showsHorizontalScrollIndicator = NO;
+    if ([self.collectionViewLayout isKindOfClass:[UICollectionViewFlowLayout class]])
+    {
+        UICollectionViewFlowLayout *layout = (UICollectionViewFlowLayout *)self.collectionViewLayout;
+        layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+        layout.minimumInteritemSpacing = 0;
+        layout.minimumLineSpacing = 0;
+    }
+    [self registerClass:[PSCarouselCollectionCell class] forCellWithReuseIdentifier:REUSE_IDENTIFIER];
+    [self registerNofitication];
+}
 
 
 - (void)addTimer

@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 
 @interface PSCarouselCollectionCell : UICollectionViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *adImageView;
+
+@property (strong, nonatomic) UIImageView *adImageView;
 
 @end
