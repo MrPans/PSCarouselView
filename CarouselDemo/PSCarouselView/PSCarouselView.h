@@ -55,6 +55,9 @@
 
 @property (nonatomic, weak) id<PSCarouselDelegate> pageDelegate;
 
+- (instancetype)initWithFrame:(CGRect)frame NS_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(nonnull NSCoder *)aDecoder NS_DESIGNATED_INITIALIZER;
+
 - (void)startMoving;
 
 - (void)stopMoving;
