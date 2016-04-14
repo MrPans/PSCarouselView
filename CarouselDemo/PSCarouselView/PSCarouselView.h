@@ -20,7 +20,7 @@
  *  @param carousel self
  *  @param page     已经计算好，直接使用即可
  */
-- (void)carousel:(PSCarouselView *)carousel didMoveToPage:(NSUInteger)page;
+- (void)carousel:(nonnull PSCarouselView *)carousel didMoveToPage:(NSUInteger)page;
 
 /**
  *  告诉代理用户点击了某一页
@@ -28,7 +28,7 @@
  *  @param carousel
  *  @param page imageURL的index
  */
-- (void)carousel:(PSCarouselView *)carousel didTouchPage:(NSUInteger)page;
+- (void)carousel:(nonnull PSCarouselView *)carousel didTouchPage:(NSUInteger)page;
 
 /**
  *  告诉代理，下载好了哪一张图片
@@ -37,15 +37,15 @@
  *  @param image    从imageURL中的URL里下载的图片
  *  @param page    imageURL的index
  */
-- (void)carousel:(PSCarouselView *)carousel didDownloadImages:(UIImage *)image atPage:(NSUInteger)page;
+- (void)carousel:(nonnull PSCarouselView *)carousel didDownloadImages:(nonnull UIImage *)image atPage:(NSUInteger)page;
 @end
 
 
 @interface PSCarouselView : UICollectionView
 
-@property (nonatomic, strong) NSArray *imageURLs;/**< 必须赋值。只要给这个imageURL赋值，会自动获取图片。刷新请再次给此属性赋值*/
+@property (nullable, nonatomic, strong) NSArray *imageURLs;/**< 必须赋值。只要给这个imageURL赋值，会自动获取图片。刷新请再次给此属性赋值*/
 
-@property (nonatomic, strong) IBInspectable UIImage *placeholder;/**< 没有轮播图时的占位图*/
+@property (nullable, nonatomic, strong) IBInspectable UIImage *placeholder;/**< 没有轮播图时的占位图*/
 
 @property (nonatomic,getter=isAutoMoving) IBInspectable BOOL autoMoving;/**< 是否自动轮播,默认为NO*/
 
@@ -53,9 +53,10 @@
 
 @property (nonatomic) IBInspectable UIViewContentMode imageViewMode; /**< 图片显示的缩放模式,默认为ScaleAspectFill*/
 
-@property (nonatomic, weak) id<PSCarouselDelegate> pageDelegate;
+@property (nullable, nonatomic, weak) id<PSCarouselDelegate> pageDelegate;
 
-- (instancetype)initWithFrame:(CGRect)frame NS_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame collectionViewLayout:(nonnull UICollectionViewLayout *)layout NS_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame NS_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(nonnull NSCoder *)aDecoder NS_DESIGNATED_INITIALIZER;
 
 - (void)startMoving;

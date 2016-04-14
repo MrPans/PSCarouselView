@@ -31,6 +31,14 @@
 
 #pragma mark - Life Cycle
 
+- (instancetype)initWithFrame:(CGRect)frame collectionViewLayout:(UICollectionViewLayout *)layout
+{
+    @throw [NSException exceptionWithName:@"Cannot initialize with layout"
+                                   reason:@"PSCarouselView would initialize with UICollectionViewFlowLayout internally. Call initWithFrame: or init instead."
+                                 userInfo:nil];
+    return [self initWithFrame:CGRectZero];
+}
+
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

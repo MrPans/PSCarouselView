@@ -15,7 +15,6 @@
 		3B0ECD8C1B7CA1EF000E74F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ECD8A1B7CA1EF000E74F9 /* LaunchScreen.xib */; };
 		3B4204B41C50AD22003CCB25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204B31C50AD22003CCB25 /* ViewController.m */; };
 		3B4204B91C50AD2C003CCB25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204B61C50AD2C003CCB25 /* AppDelegate.m */; };
-		3B4204BA1C50AD2C003CCB25 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B4204B71C50AD2C003CCB25 /* Info.plist */; };
 		3B4204BB1C50AD2C003CCB25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204B81C50AD2C003CCB25 /* main.m */; };
 		3B4204BF1C50AD3D003CCB25 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204BE1C50AD3D003CCB25 /* DemoTableViewController.m */; };
 		3B4CBB8A1BFCE16B0042958C /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB6E1BFCE16B0042958C /* NSData+ImageContentType.m */; };
@@ -300,7 +299,6 @@
 				3B0ECD871B7CA1EF000E74F9 /* Main.storyboard in Resources */,
 				3B0ECD8C1B7CA1EF000E74F9 /* LaunchScreen.xib in Resources */,
 				3B0ECD891B7CA1EF000E74F9 /* Images.xcassets in Resources */,
-				3B4204BA1C50AD2C003CCB25 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
