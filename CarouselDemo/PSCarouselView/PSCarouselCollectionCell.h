@@ -9,6 +9,6 @@
 
 @interface PSCarouselCollectionCell : UICollectionViewCell
 
-@property (strong, nonatomic) UIImageView *adImageView;
+@property (strong, nonatomic) IBOutlet UIImageView *adImageView;
 
 @end

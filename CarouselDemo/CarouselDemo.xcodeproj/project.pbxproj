@@ -33,6 +33,7 @@
 		3B4CBB971BFCE16B0042958C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB891BFCE16B0042958C /* UIView+WebCacheOperation.m */; };
 		3B4F00E71BF487450043EA5E /* PSCarouselCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4F00E31BF487450043EA5E /* PSCarouselCollectionCell.m */; };
 		3B4F00E91BF487450043EA5E /* PSCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4F00E61BF487450043EA5E /* PSCarouselView.m */; };
+		3B9C34931CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9C34921CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		3B4F00E31BF487450043EA5E /* PSCarouselCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSCarouselCollectionCell.m; sourceTree = "<group>"; };
 		3B4F00E51BF487450043EA5E /* PSCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCarouselView.h; sourceTree = "<group>"; };
 		3B4F00E61BF487450043EA5E /* PSCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSCarouselView.m; sourceTree = "<group>"; };
+		3B9C34921CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSCarouselCollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 				3B4F00E61BF487450043EA5E /* PSCarouselView.m */,
 				3B4F00E21BF487450043EA5E /* PSCarouselCollectionCell.h */,
 				3B4F00E31BF487450043EA5E /* PSCarouselCollectionCell.m */,
+				3B9C34921CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib */,
 			);
 			path = PSCarouselView;
 			sourceTree = SOURCE_ROOT;
@@ -298,6 +301,7 @@
 			files = (
 				3B0ECD871B7CA1EF000E74F9 /* Main.storyboard in Resources */,
 				3B0ECD8C1B7CA1EF000E74F9 /* LaunchScreen.xib in Resources */,
+				3B9C34931CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib in Resources */,
 				3B0ECD891B7CA1EF000E74F9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

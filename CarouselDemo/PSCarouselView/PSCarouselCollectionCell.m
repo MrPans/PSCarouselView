@@ -9,16 +9,4 @@
 
 @implementation PSCarouselCollectionCell
 
-- (instancetype)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self)
-    {
-        self.adImageView = [[UIImageView alloc] initWithFrame:self.bounds];
-        [self.contentView addSubview:self.adImageView];
-        self.adImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    }
-    return self;
-}
-
 @end

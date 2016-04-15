@@ -8,7 +8,7 @@
 #define SELF_WIDTH              self.frame.size.width
 #define REUSE_IDENTIFIER        [PSCarouselCollectionCell description]
 
-#define MIN_MOVING_TIMEINTERVAL       0.1 //最小滚动时间间隔
+#define MIN_MOVING_TIMEINTERVAL       0.3 //最小滚动时间间隔
 #define DEFAULT_MOVING_TIMEINTERVAL   3.0 //默认滚动时间间隔
 
 #import "PSCarouselView.h"
@@ -117,7 +117,7 @@
         layout.minimumInteritemSpacing = 0;
         layout.minimumLineSpacing = 0;
     }
-    [self registerClass:[PSCarouselCollectionCell class] forCellWithReuseIdentifier:REUSE_IDENTIFIER];
+    [self registerNib:[UINib nibWithNibName:REUSE_IDENTIFIER bundle:nil] forCellWithReuseIdentifier:REUSE_IDENTIFIER];
     [self registerNofitication];
 }
 

@@ -51,7 +51,7 @@
 
 @property (nonatomic) IBInspectable CGFloat movingTimeInterval;/**< 滚动速率 默认为3.0 即3秒翻页一次*/
 
-@property (nonatomic) IBInspectable UIViewContentMode imageViewMode; /**< 图片显示的缩放模式,默认为ScaleAspectFill*/
+@property (nonatomic) UIViewContentMode imageViewMode; /**< 图片显示的缩放模式,默认为ScaleAspectFill*/
 
 @property (nullable, nonatomic, weak) id<PSCarouselDelegate> pageDelegate;
 
