@@ -77,13 +77,22 @@
                                                     <segue destination="G12-ML-h6m" kind="show" id="QMe-wN-FIU"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVc-ar-URd">
+                                                <rect key="frame" x="94" y="352" width="132" height="30"/>
+                                                <state key="normal" title="Carousel with Swift"/>
+                                                <connections>
+                                                    <segue destination="mdu-43-WEQ" kind="show" id="DaS-VX-gf5"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="fvb-De-ckD" secondAttribute="bottom" constant="8" id="1IR-aY-Xg1"/>
                                             <constraint firstItem="xBs-Am-Gy7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="12" id="4Sy-Nn-NuQ"/>
                                             <constraint firstItem="YKu-ZV-KHs" firstAttribute="bottom" secondItem="pLz-b0-Uqz" secondAttribute="bottom" id="5lB-yL-ZCk"/>
+                                            <constraint firstItem="gph-k6-iW0" firstAttribute="top" secondItem="mVc-ar-URd" secondAttribute="bottom" constant="8" id="FKY-AT-ZLL"/>
                                             <constraint firstAttribute="centerX" secondItem="YKu-ZV-KHs" secondAttribute="centerX" id="GCh-sp-lbP"/>
+                                            <constraint firstItem="mVc-ar-URd" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="GE3-Zo-sXF"/>
                                             <constraint firstItem="pLz-b0-Uqz" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="ODe-cc-4ye"/>
                                             <constraint firstItem="fvb-De-ckD" firstAttribute="centerY" secondItem="xBs-Am-Gy7" secondAttribute="centerY" id="Qvt-m8-zdn"/>
                                             <constraint firstItem="gph-k6-iW0" firstAttribute="centerX" secondItem="H9N-ri-YHh" secondAttribute="centerX" id="UT4-jL-29b"/>
@@ -198,6 +207,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5U-eP-ivF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1117" y="322"/>
+        </scene>
+        <!--Swift View Controller-->
+        <scene sceneID="r3E-65-cBK">
+            <objects>
+                <viewController id="mdu-43-WEQ" customClass="SwiftViewController" customModule="CarouselDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Iia-l5-fSL"/>
+                        <viewControllerLayoutGuide type="bottom" id="o3L-Rg-OuM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p8i-QW-y1M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kwh-fO-rTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="719" y="1043"/>
         </scene>
         <!--Demo Collection View Controller-->
         <scene sceneID="TUi-yU-TUP">
