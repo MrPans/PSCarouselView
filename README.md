@@ -11,7 +11,7 @@ A drop-in carousel view. Most of Apps put it in their first screen.
 
 #### **update**
 
-`enhancement` Storyboard inspector Spported at version `1.1.0`
+`enhancement` Storyboard inspector Spported since version `1.1.0`
 
 ![image](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/Inspector.png)
  
