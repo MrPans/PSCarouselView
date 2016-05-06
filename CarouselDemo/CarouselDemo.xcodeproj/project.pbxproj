@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		3B13B3D41CDCA09300E7F6A3 /* doc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3B13B3D71CDCA09400E7F6A3 /* Build configuration list for PBXAggregateTarget "doc" */;
+			buildPhases = (
+				3B13B3D81CDCA09800E7F6A3 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = doc;
+			productName = doc;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		3B007F301C605C4800380D27 /* DemoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B007F2F1C605C4800380D27 /* DemoCollectionViewController.m */; };
 		3B007F331C605C5800380D27 /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B007F321C605C5800380D27 /* DemoCollectionViewCell.m */; };
@@ -280,6 +294,9 @@
 					3B0ECD771B7CA1EF000E74F9 = {
 						CreatedOnToolsVersion = 6.4;
 					};
+					3B13B3D41CDCA09300E7F6A3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 				};
 			};
 			buildConfigurationList = 3B0ECD731B7CA1EF000E74F9 /* Build configuration list for PBXProject "CarouselDemo" */;
@@ -296,6 +313,7 @@
 			projectRoot = "";
 			targets = (
 				3B0ECD771B7CA1EF000E74F9 /* CarouselDemo */,
+				3B13B3D41CDCA09300E7F6A3 /* doc */,
 			);
 		};
 /* End PBXProject section */
@@ -313,6 +331,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B13B3D81CDCA09800E7F6A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"ACME\";\ncompanyID=\"com.ACME\";\ncompanyURL=\"http://ACME.com\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"./doc\";\n# End constants\n\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--no-create-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n./PSCarouselView \\\n#\"${PROJECT_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B0ECD741B7CA1EF000E74F9 /* Sources */ = {
@@ -480,6 +514,20 @@
 			};
 			name = Release;
 		};
+		3B13B3D51CDCA09400E7F6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B13B3D61CDCA09400E7F6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -500,6 +548,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		3B13B3D71CDCA09400E7F6A3 /* Build configuration list for PBXAggregateTarget "doc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B13B3D51CDCA09400E7F6A3 /* Debug */,
+				3B13B3D61CDCA09400E7F6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

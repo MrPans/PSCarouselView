@@ -46,7 +46,7 @@
 
 /**
  *  一个简单易用的广告轮播控件
- *  @see http://shengpan.net/pscarouselview/
+ *  @see 设计思路请查看[这里](http://shengpan.net/pscarouselview/)
  */
 @interface PSCarouselView : UICollectionView
 
