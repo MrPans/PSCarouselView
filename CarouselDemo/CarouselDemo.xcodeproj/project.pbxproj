@@ -344,7 +344,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"ACME\";\ncompanyID=\"com.ACME\";\ncompanyURL=\"http://ACME.com\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"./doc\";\n# End constants\n\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--no-create-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n./PSCarouselView \\\n#\"${PROJECT_DIR}\"\n";
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"Shengpan\";\ncompanyID=\"net.shengpan\";\ncompanyURL=\"http://shengpan.net\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"./doc\";\n# End constants\n\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--no-create-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n./PSCarouselView \\\n#\"${PROJECT_DIR}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -556,6 +556,7 @@
 				3B13B3D61CDCA09400E7F6A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
