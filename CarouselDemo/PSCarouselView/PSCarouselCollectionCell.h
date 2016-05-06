@@ -7,8 +7,14 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  轮播控件采用的Cell
+ */
 @interface PSCarouselCollectionCell : UICollectionViewCell
 
+/**
+ *  显示轮播图的Cell
+ */
 @property (strong, nonatomic) IBOutlet UIImageView *adImageView;
 
 @end
