@@ -49,6 +49,7 @@
 		3B4F00E91BF487450043EA5E /* PSCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4F00E61BF487450043EA5E /* PSCarouselView.m */; };
 		3B9C34931CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9C34921CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib */; };
 		3B9C35331CC4C51300E6FFAF /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C35321CC4C51300E6FFAF /* SwiftViewController.swift */; };
+		3BDE30951CFE81AA00F8FAF7 /* PSWeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE30941CFE81AA00F8FAF7 /* PSWeaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +108,8 @@
 		3B9C34921CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSCarouselCollectionCell.xib; sourceTree = "<group>"; };
 		3B9C35311CC4C51300E6FFAF /* CarouselDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarouselDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		3B9C35321CC4C51300E6FFAF /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftViewController.swift; path = CarouselWithSwift/SwiftViewController.swift; sourceTree = "<group>"; };
+		3BDE30931CFE81AA00F8FAF7 /* PSWeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWeaker.h; sourceTree = "<group>"; };
+		3BDE30941CFE81AA00F8FAF7 /* PSWeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWeaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +260,8 @@
 				3B4F00E21BF487450043EA5E /* PSCarouselCollectionCell.h */,
 				3B4F00E31BF487450043EA5E /* PSCarouselCollectionCell.m */,
 				3B9C34921CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib */,
+				3BDE30931CFE81AA00F8FAF7 /* PSWeaker.h */,
+				3BDE30941CFE81AA00F8FAF7 /* PSWeaker.m */,
 			);
 			path = PSCarouselView;
 			sourceTree = SOURCE_ROOT;
@@ -372,6 +377,7 @@
 				3B07E3881C5DF94F001F1C54 /* CarouselCell.m in Sources */,
 				3B4F00E71BF487450043EA5E /* PSCarouselCollectionCell.m in Sources */,
 				3B007F331C605C5800380D27 /* DemoCollectionViewCell.m in Sources */,
+				3BDE30951CFE81AA00F8FAF7 /* PSWeaker.m in Sources */,
 				3B4CBB961BFCE16B0042958C /* UIImageView+WebCache.m in Sources */,
 				3B4CBB901BFCE16B0042958C /* SDWebImageManager.m in Sources */,
 				3B4CBB8D1BFCE16B0042958C /* SDWebImageDecoder.m in Sources */,

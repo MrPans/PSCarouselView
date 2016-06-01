@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>PSCarouselCollectionCell Class Reference</title>
+	<title>PSWeaker Class Reference</title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
@@ -54,15 +54,15 @@
 
 	
 	
-	<optgroup label="Properties">
+
+	
+
+	
+	<optgroup label="Instance Methods">
 		
-		<option value="//api/name/adImageView">adImageView</option>
+		<option value="//api/name/initWithObject:">- initWithObject:</option>
 		
 	</optgroup>
-	
-
-	
-
 	
 	
 </select>
@@ -77,16 +77,16 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">PSCarouselCollectionCell Class Reference</h1>
+					<h1 class="title">PSWeaker Class Reference</h1>
 
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<th>Inherits from</th>
-	<td>UICollectionViewCell</td>
+	<td>NSObject</td>
 </tr><tr>
 	<th>Declared in</th>
-	<td>PSCarouselCollectionCell.h<br />PSCarouselCollectionCell.m</td>
+	<td>PSWeaker.h<br />PSWeaker.m</td>
 </tr>
 						</tbody></table></div>
 					
@@ -96,7 +96,7 @@
 					<div class="section section-overview">
 						<a title="Overview" name="overview"></a>
 						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p>轮播控件采用的Cell</p>
+						<p>本类用于解决某些系统类造成的循环引用问题，比如说NSTimer。</p>
 					</div>
 					
 					
@@ -112,8 +112,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/adImageView" title="adImageView"></a>
-	<h3 class="method-title"><code><a href="#//api/name/adImageView">&nbsp;&nbsp;adImageView</a></code>
+	<a name="//api/name/initWithObject:" title="initWithObject:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithObject:">&ndash;&nbsp;initWithObject:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -123,16 +123,33 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>显示轮播图的Cell</p>
+				<p>初始化一个weaker，并弱引用被传入的对象</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) IBOutlet UIImageView *adImageView</code></div>
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithObject:(id)<em>object</em></code></div>
 
 		    
 			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>object</code></th>
+						<td><p>需要被弱引用的对象</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
 
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>一个弱引用了指定对象的Weaker。</p>
+			</div>
 			
 
 			
@@ -146,7 +163,7 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">PSCarouselCollectionCell.h</code></p>
+				<p><code class="declared-in-ref">PSWeaker.h</code></p>
 			</div>
 			
 			
