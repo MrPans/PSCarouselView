@@ -14,6 +14,7 @@
 #import "PSCarouselView.h"
 #import "PSCarouselCollectionCell.h"
 #import "UIImageView+WebCache.h"
+#import "PSWeaker.h"
 
 @interface PSCarouselView()<UICollectionViewDelegate,
                             UICollectionViewDataSource,
@@ -119,6 +120,7 @@
     }
     [self registerNib:[UINib nibWithNibName:REUSE_IDENTIFIER bundle:nil] forCellWithReuseIdentifier:REUSE_IDENTIFIER];
     [self registerNofitication];
+
 }
 
 
@@ -126,7 +128,8 @@
 {
     [self removeTimer];
     NSTimeInterval speed = self.movingTimeInterval < MIN_MOVING_TIMEINTERVAL ? DEFAULT_MOVING_TIMEINTERVAL : self.movingTimeInterval;
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:speed target:self selector:@selector(moveToNextPage) userInfo:nil repeats:YES];
+    PSWeaker *weaker = [[PSWeaker alloc] initWithObject:self];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:speed target:weaker selector:@selector(moveToNextPage) userInfo:nil repeats:YES];
     self.timer.tolerance = 0.1 * speed;// for increased power savings and responsiveness
 }
 

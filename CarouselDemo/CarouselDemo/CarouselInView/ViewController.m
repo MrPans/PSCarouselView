@@ -36,7 +36,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-//    [self.carouselView startMoving];
+    [self.carouselView startMoving];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
