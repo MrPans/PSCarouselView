@@ -1,9 +1,7 @@
 language: objective-c
 osx_image: xcode7.2.1
 sudo: false
-before_install:
-- pod --version
-- pod update
+# before_install:
 script:
 - pod lib lint --allow-warnings --verbose
 - xctool -workspace ./CarouselDemo/CarouselDemo.xcworkspace -scheme 'PSCarouselViewTests' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest' test
