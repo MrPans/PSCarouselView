@@ -7,4 +7,4 @@ before_install:
 - pod update
 script:
 - pod lib lint --allow-warnings --verbose
-- xcodebuild test -scheme PSCarouselViewTests -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.1'
+- xctool -workspace ./CarouselDemo/CarouselDemo.xcworkspace -scheme 'PSCarouselViewTests' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest' test
