@@ -1,1843 +1,759 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>329B3C24CB018091EEB54B5A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-CarouselDemo.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3B007F2E1C605C4800380D27</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DemoCollectionViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B007F2F1C605C4800380D27</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DemoCollectionViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B007F301C605C4800380D27</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B007F2F1C605C4800380D27</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B007F311C605C5800380D27</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DemoCollectionViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B007F321C605C5800380D27</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DemoCollectionViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B007F331C605C5800380D27</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B007F321C605C5800380D27</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B07E3841C5DF78D001F1C54</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Macros.h</string>
-			<key>path</key>
-			<string>Resource/Macros.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B07E3851C5DF790001F1C54</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B9C35311CC4C51300E6FFAF</string>
-				<string>3B07E3841C5DF78D001F1C54</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resource</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B07E3861C5DF94F001F1C54</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CarouselCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B07E3871C5DF94F001F1C54</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CarouselCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B07E3881C5DF94F001F1C54</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B07E3871C5DF94F001F1C54</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B0ECD6F1B7CA1EF000E74F9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B0ECD7A1B7CA1EF000E74F9</string>
-				<string>3B0ECD791B7CA1EF000E74F9</string>
-				<string>9580A4A9F5819E234EF7387A</string>
-				<string>E8328C556358AA16CA3CF8C9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B0ECD701B7CA1EF000E74F9</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0710</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Pan</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>3B0ECD771B7CA1EF000E74F9</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.4</string>
-					</dict>
-					<key>3B13B3D41CDCA09300E7F6A3</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>3B0ECD731B7CA1EF000E74F9</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>3B0ECD6F1B7CA1EF000E74F9</string>
-			<key>productRefGroup</key>
-			<string>3B0ECD791B7CA1EF000E74F9</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>3B0ECD771B7CA1EF000E74F9</string>
-				<string>3B13B3D41CDCA09300E7F6A3</string>
-			</array>
-		</dict>
-		<key>3B0ECD731B7CA1EF000E74F9</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3B0ECD991B7CA1EF000E74F9</string>
-				<string>3B0ECD9A1B7CA1EF000E74F9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3B0ECD741B7CA1EF000E74F9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3B9C35331CC4C51300E6FFAF</string>
-				<string>3B4CBB951BFCE16B0042958C</string>
-				<string>3B4CBB941BFCE16B0042958C</string>
-				<string>3B4CBB8F1BFCE16B0042958C</string>
-				<string>3B4CBB8C1BFCE16B0042958C</string>
-				<string>3B4204B91C50AD2C003CCB25</string>
-				<string>3B4CBB971BFCE16B0042958C</string>
-				<string>3B4CBB931BFCE16B0042958C</string>
-				<string>3B4CBB911BFCE16B0042958C</string>
-				<string>3B4204B41C50AD22003CCB25</string>
-				<string>3B4F00E91BF487450043EA5E</string>
-				<string>3B4CBB8E1BFCE16B0042958C</string>
-				<string>3B007F301C605C4800380D27</string>
-				<string>3B4CBB921BFCE16B0042958C</string>
-				<string>3B4204BF1C50AD3D003CCB25</string>
-				<string>3B4CBB8A1BFCE16B0042958C</string>
-				<string>3B07E3881C5DF94F001F1C54</string>
-				<string>3B4F00E71BF487450043EA5E</string>
-				<string>3B007F331C605C5800380D27</string>
-				<string>3BDE30951CFE81AA00F8FAF7</string>
-				<string>3B4CBB961BFCE16B0042958C</string>
-				<string>3B4CBB901BFCE16B0042958C</string>
-				<string>3B4CBB8D1BFCE16B0042958C</string>
-				<string>3B4204BB1C50AD2C003CCB25</string>
-				<string>3B4CBB8B1BFCE16B0042958C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3B0ECD751B7CA1EF000E74F9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E98E7AE183B5CC6DF22B5BD5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3B0ECD761B7CA1EF000E74F9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3B0ECD871B7CA1EF000E74F9</string>
-				<string>3B0ECD8C1B7CA1EF000E74F9</string>
-				<string>3B9C34931CC0A9A400E6FFAF</string>
-				<string>3B0ECD891B7CA1EF000E74F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3B0ECD771B7CA1EF000E74F9</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3B0ECD9B1B7CA1EF000E74F9</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7AC5011668B4D4D91CC3E52E</string>
-				<string>3B0ECD741B7CA1EF000E74F9</string>
-				<string>3B0ECD751B7CA1EF000E74F9</string>
-				<string>3B0ECD761B7CA1EF000E74F9</string>
-				<string>DA318B65DF5F4DF419D29D23</string>
-				<string>C79C55E248A234CA6E700023</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CarouselDemo</string>
-			<key>productName</key>
-			<string>CarouselDemo</string>
-			<key>productReference</key>
-			<string>3B0ECD781B7CA1EF000E74F9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>3B0ECD781B7CA1EF000E74F9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CarouselDemo.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3B0ECD791B7CA1EF000E74F9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B0ECD781B7CA1EF000E74F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B0ECD7A1B7CA1EF000E74F9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B0ECD851B7CA1EF000E74F9</string>
-				<string>3B0ECD881B7CA1EF000E74F9</string>
-				<string>3B4F00E11BF487450043EA5E</string>
-				<string>3B0ECDA81B7CA378000E74F9</string>
-				<string>3B4CBB6C1BFCE16B0042958C</string>
-				<string>3B0ECD7B1B7CA1EF000E74F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CarouselDemo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B0ECD7B1B7CA1EF000E74F9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B4204B51C50AD2C003CCB25</string>
-				<string>3B4204B61C50AD2C003CCB25</string>
-				<string>3B4204B71C50AD2C003CCB25</string>
-				<string>3B4204B81C50AD2C003CCB25</string>
-				<string>3B0ECD8A1B7CA1EF000E74F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B0ECD851B7CA1EF000E74F9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B0ECD861B7CA1EF000E74F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B0ECD861B7CA1EF000E74F9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B0ECD871B7CA1EF000E74F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B0ECD851B7CA1EF000E74F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B0ECD881B7CA1EF000E74F9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B0ECD891B7CA1EF000E74F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B0ECD881B7CA1EF000E74F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B0ECD8A1B7CA1EF000E74F9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B0ECD8B1B7CA1EF000E74F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B0ECD8B1B7CA1EF000E74F9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B0ECD8C1B7CA1EF000E74F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B0ECD8A1B7CA1EF000E74F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B0ECD991B7CA1EF000E74F9</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.4</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3B0ECD9A1B7CA1EF000E74F9</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.4</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3B0ECD9B1B7CA1EF000E74F9</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3B0ECD9C1B7CA1EF000E74F9</string>
-				<string>3B0ECD9D1B7CA1EF000E74F9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3B0ECD9C1B7CA1EF000E74F9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E39D2C6DB7849FD5A9490F20</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>INFOPLIST_FILE</key>
-				<string>$(SRCROOT)/CarouselDemo/SupportingFile/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>net.shengpan.CarouselDemo</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>CarouselDemo/CarouselDemo-Bridging-Header.h</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3B0ECD9D1B7CA1EF000E74F9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>52D8CA93E16F47DCE890B7D2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>INFOPLIST_FILE</key>
-				<string>$(SRCROOT)/CarouselDemo/SupportingFile/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>net.shengpan.CarouselDemo</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>CarouselDemo/CarouselDemo-Bridging-Header.h</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3B0ECDA81B7CA378000E74F9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B9C35321CC4C51300E6FFAF</string>
-				<string>3B4204C01C50AD43003CCB25</string>
-				<string>3B4204BC1C50AD3D003CCB25</string>
-				<string>3B4204B11C50AD22003CCB25</string>
-				<string>3B07E3851C5DF790001F1C54</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Demo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B13B3D41CDCA09300E7F6A3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3B13B3D71CDCA09400E7F6A3</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3B13B3D81CDCA09800E7F6A3</string>
-			</array>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXAggregateTarget</string>
-			<key>name</key>
-			<string>doc</string>
-			<key>productName</key>
-			<string>doc</string>
-		</dict>
-		<key>3B13B3D51CDCA09400E7F6A3</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3B13B3D61CDCA09400E7F6A3</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3B13B3D71CDCA09400E7F6A3</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3B13B3D51CDCA09400E7F6A3</string>
-				<string>3B13B3D61CDCA09400E7F6A3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3B13B3D81CDCA09800E7F6A3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>#appledoc Xcode script
-# Start constants
-company="Shengpan";
-companyID="net.shengpan";
-companyURL="http://shengpan.net";
-target="iphoneos";
-#target="macosx";
-outputPath="./doc";
-# End constants
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
 
-/usr/local/bin/appledoc \
---project-name "${PROJECT_NAME}" \
---project-company "${company}" \
---company-id "${companyID}" \
---docset-atom-filename "${company}.atom" \
---docset-feed-url "${companyURL}/${company}/%DOCSETATOMFILENAME" \
---docset-package-url "${companyURL}/${company}/%DOCSETPACKAGEFILENAME" \
---docset-fallback-url "${companyURL}/${company}" \
---output "${outputPath}" \
---no-create-docset \
---docset-platform-family "${target}" \
---logformat xcode \
---keep-intermediate-files \
---no-repeat-first-par \
---no-warn-invalid-crossref \
---exit-threshold 2 \
-./PSCarouselView \
-#"${PROJECT_DIR}"
-</string>
-		</dict>
-		<key>3B4204B11C50AD22003CCB25</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B4204B21C50AD22003CCB25</string>
-				<string>3B4204B31C50AD22003CCB25</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CarouselInView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4204B21C50AD22003CCB25</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4204B31C50AD22003CCB25</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4204B41C50AD22003CCB25</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4204B31C50AD22003CCB25</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4204B51C50AD2C003CCB25</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AppDelegate.h</string>
-			<key>path</key>
-			<string>SupportingFile/AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4204B61C50AD2C003CCB25</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AppDelegate.m</string>
-			<key>path</key>
-			<string>SupportingFile/AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4204B71C50AD2C003CCB25</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>name</key>
-			<string>Info.plist</string>
-			<key>path</key>
-			<string>SupportingFile/Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4204B81C50AD2C003CCB25</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>main.m</string>
-			<key>path</key>
-			<string>SupportingFile/main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4204B91C50AD2C003CCB25</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4204B61C50AD2C003CCB25</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4204BB1C50AD2C003CCB25</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4204B81C50AD2C003CCB25</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4204BC1C50AD3D003CCB25</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B4204BD1C50AD3D003CCB25</string>
-				<string>3B4204BE1C50AD3D003CCB25</string>
-				<string>3B07E3861C5DF94F001F1C54</string>
-				<string>3B07E3871C5DF94F001F1C54</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CarouselInTableView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4204BD1C50AD3D003CCB25</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DemoTableViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4204BE1C50AD3D003CCB25</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DemoTableViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4204BF1C50AD3D003CCB25</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4204BE1C50AD3D003CCB25</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4204C01C50AD43003CCB25</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B007F2E1C605C4800380D27</string>
-				<string>3B007F2F1C605C4800380D27</string>
-				<string>3B007F311C605C5800380D27</string>
-				<string>3B007F321C605C5800380D27</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CarouselInCollectionView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB6C1BFCE16B0042958C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B4CBB6D1BFCE16B0042958C</string>
-				<string>3B4CBB6E1BFCE16B0042958C</string>
-				<string>3B4CBB6F1BFCE16B0042958C</string>
-				<string>3B4CBB701BFCE16B0042958C</string>
-				<string>3B4CBB711BFCE16B0042958C</string>
-				<string>3B4CBB721BFCE16B0042958C</string>
-				<string>3B4CBB731BFCE16B0042958C</string>
-				<string>3B4CBB741BFCE16B0042958C</string>
-				<string>3B4CBB751BFCE16B0042958C</string>
-				<string>3B4CBB761BFCE16B0042958C</string>
-				<string>3B4CBB771BFCE16B0042958C</string>
-				<string>3B4CBB781BFCE16B0042958C</string>
-				<string>3B4CBB791BFCE16B0042958C</string>
-				<string>3B4CBB7A1BFCE16B0042958C</string>
-				<string>3B4CBB7B1BFCE16B0042958C</string>
-				<string>3B4CBB7C1BFCE16B0042958C</string>
-				<string>3B4CBB7D1BFCE16B0042958C</string>
-				<string>3B4CBB7E1BFCE16B0042958C</string>
-				<string>3B4CBB7F1BFCE16B0042958C</string>
-				<string>3B4CBB801BFCE16B0042958C</string>
-				<string>3B4CBB811BFCE16B0042958C</string>
-				<string>3B4CBB821BFCE16B0042958C</string>
-				<string>3B4CBB831BFCE16B0042958C</string>
-				<string>3B4CBB841BFCE16B0042958C</string>
-				<string>3B4CBB851BFCE16B0042958C</string>
-				<string>3B4CBB861BFCE16B0042958C</string>
-				<string>3B4CBB871BFCE16B0042958C</string>
-				<string>3B4CBB881BFCE16B0042958C</string>
-				<string>3B4CBB891BFCE16B0042958C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>SDWebImage</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3B4CBB6D1BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSData+ImageContentType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB6E1BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSData+ImageContentType.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB6F1BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SDImageCache.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB701BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SDImageCache.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB711BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SDWebImageCompat.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB721BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SDWebImageCompat.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB731BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SDWebImageDecoder.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB741BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SDWebImageDecoder.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB751BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SDWebImageDownloader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB761BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SDWebImageDownloader.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB771BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SDWebImageDownloaderOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB781BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SDWebImageDownloaderOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB791BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SDWebImageManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB7A1BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SDWebImageManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB7B1BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SDWebImageOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB7C1BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SDWebImagePrefetcher.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB7D1BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SDWebImagePrefetcher.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB7E1BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIButton+WebCache.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB7F1BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIButton+WebCache.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB801BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIImage+GIF.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB811BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIImage+GIF.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB821BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIImage+MultiFormat.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB831BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIImage+MultiFormat.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB841BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIImageView+HighlightedWebCache.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB851BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIImageView+HighlightedWebCache.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB861BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIImageView+WebCache.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB871BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIImageView+WebCache.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB881BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIView+WebCacheOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB891BFCE16B0042958C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIView+WebCacheOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4CBB8A1BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB6E1BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB8B1BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB701BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB8C1BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB721BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB8D1BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB741BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB8E1BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB761BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB8F1BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB781BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB901BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB7A1BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB911BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB7D1BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB921BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB7F1BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB931BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB811BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB941BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB831BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB951BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB851BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB961BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB871BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4CBB971BFCE16B0042958C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4CBB891BFCE16B0042958C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4F00E11BF487450043EA5E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B4F00E51BF487450043EA5E</string>
-				<string>3B4F00E61BF487450043EA5E</string>
-				<string>3B4F00E21BF487450043EA5E</string>
-				<string>3B4F00E31BF487450043EA5E</string>
-				<string>3B9C34921CC0A9A400E6FFAF</string>
-				<string>3BDE30931CFE81AA00F8FAF7</string>
-				<string>3BDE30941CFE81AA00F8FAF7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PSCarouselView</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3B4F00E21BF487450043EA5E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PSCarouselCollectionCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4F00E31BF487450043EA5E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PSCarouselCollectionCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4F00E51BF487450043EA5E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PSCarouselView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4F00E61BF487450043EA5E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PSCarouselView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B4F00E71BF487450043EA5E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4F00E31BF487450043EA5E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B4F00E91BF487450043EA5E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4F00E61BF487450043EA5E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B9C34921CC0A9A400E6FFAF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>PSCarouselCollectionCell.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B9C34931CC0A9A400E6FFAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B9C34921CC0A9A400E6FFAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B9C35311CC4C51300E6FFAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CarouselDemo-Bridging-Header.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B9C35321CC4C51300E6FFAF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SwiftViewController.swift</string>
-			<key>path</key>
-			<string>CarouselWithSwift/SwiftViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B9C35331CC4C51300E6FFAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B9C35321CC4C51300E6FFAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3BDE30931CFE81AA00F8FAF7</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PSWeaker.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3BDE30941CFE81AA00F8FAF7</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PSWeaker.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3BDE30951CFE81AA00F8FAF7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3BDE30941CFE81AA00F8FAF7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52D8CA93E16F47DCE890B7D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-CarouselDemo.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-CarouselDemo/Pods-CarouselDemo.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7AC5011668B4D4D91CC3E52E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>9580A4A9F5819E234EF7387A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E39D2C6DB7849FD5A9490F20</string>
-				<string>52D8CA93E16F47DCE890B7D2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C79C55E248A234CA6E700023</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-CarouselDemo/Pods-CarouselDemo-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DA318B65DF5F4DF419D29D23</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-CarouselDemo/Pods-CarouselDemo-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>E39D2C6DB7849FD5A9490F20</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-CarouselDemo.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-CarouselDemo/Pods-CarouselDemo.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8328C556358AA16CA3CF8C9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>329B3C24CB018091EEB54B5A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E98E7AE183B5CC6DF22B5BD5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>329B3C24CB018091EEB54B5A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>3B0ECD701B7CA1EF000E74F9</string>
-</dict>
-</plist>
+/* Begin PBXAggregateTarget section */
+		3B13B3D41CDCA09300E7F6A3 /* doc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3B13B3D71CDCA09400E7F6A3 /* Build configuration list for PBXAggregateTarget "doc" */;
+			buildPhases = (
+				3B13B3D81CDCA09800E7F6A3 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = doc;
+			productName = doc;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3B007F301C605C4800380D27 /* DemoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B007F2F1C605C4800380D27 /* DemoCollectionViewController.m */; };
+		3B007F331C605C5800380D27 /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B007F321C605C5800380D27 /* DemoCollectionViewCell.m */; };
+		3B07E3881C5DF94F001F1C54 /* CarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B07E3871C5DF94F001F1C54 /* CarouselCell.m */; };
+		3B0ECD871B7CA1EF000E74F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ECD851B7CA1EF000E74F9 /* Main.storyboard */; };
+		3B0ECD891B7CA1EF000E74F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ECD881B7CA1EF000E74F9 /* Images.xcassets */; };
+		3B0ECD8C1B7CA1EF000E74F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ECD8A1B7CA1EF000E74F9 /* LaunchScreen.xib */; };
+		3B4204B41C50AD22003CCB25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204B31C50AD22003CCB25 /* ViewController.m */; };
+		3B4204B91C50AD2C003CCB25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204B61C50AD2C003CCB25 /* AppDelegate.m */; };
+		3B4204BB1C50AD2C003CCB25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204B81C50AD2C003CCB25 /* main.m */; };
+		3B4204BF1C50AD3D003CCB25 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204BE1C50AD3D003CCB25 /* DemoTableViewController.m */; };
+		3B4CBB8A1BFCE16B0042958C /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB6E1BFCE16B0042958C /* NSData+ImageContentType.m */; };
+		3B4CBB8B1BFCE16B0042958C /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB701BFCE16B0042958C /* SDImageCache.m */; };
+		3B4CBB8C1BFCE16B0042958C /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB721BFCE16B0042958C /* SDWebImageCompat.m */; };
+		3B4CBB8D1BFCE16B0042958C /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB741BFCE16B0042958C /* SDWebImageDecoder.m */; };
+		3B4CBB8E1BFCE16B0042958C /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB761BFCE16B0042958C /* SDWebImageDownloader.m */; };
+		3B4CBB8F1BFCE16B0042958C /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB781BFCE16B0042958C /* SDWebImageDownloaderOperation.m */; };
+		3B4CBB901BFCE16B0042958C /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB7A1BFCE16B0042958C /* SDWebImageManager.m */; };
+		3B4CBB911BFCE16B0042958C /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB7D1BFCE16B0042958C /* SDWebImagePrefetcher.m */; };
+		3B4CBB921BFCE16B0042958C /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB7F1BFCE16B0042958C /* UIButton+WebCache.m */; };
+		3B4CBB931BFCE16B0042958C /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB811BFCE16B0042958C /* UIImage+GIF.m */; };
+		3B4CBB941BFCE16B0042958C /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB831BFCE16B0042958C /* UIImage+MultiFormat.m */; };
+		3B4CBB951BFCE16B0042958C /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB851BFCE16B0042958C /* UIImageView+HighlightedWebCache.m */; };
+		3B4CBB961BFCE16B0042958C /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB871BFCE16B0042958C /* UIImageView+WebCache.m */; };
+		3B4CBB971BFCE16B0042958C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBB891BFCE16B0042958C /* UIView+WebCacheOperation.m */; };
+		3B4F00E71BF487450043EA5E /* PSCarouselCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4F00E31BF487450043EA5E /* PSCarouselCollectionCell.m */; };
+		3B4F00E91BF487450043EA5E /* PSCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4F00E61BF487450043EA5E /* PSCarouselView.m */; };
+		3B9C34931CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9C34921CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib */; };
+		3B9C35331CC4C51300E6FFAF /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C35321CC4C51300E6FFAF /* SwiftViewController.swift */; };
+		3BDE30951CFE81AA00F8FAF7 /* PSWeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE30941CFE81AA00F8FAF7 /* PSWeaker.m */; };
+		3BFDE4041D01D953006D047D /* PSCarouselViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDE4031D01D953006D047D /* PSCarouselViewTests.m */; };
+		E98E7AE183B5CC6DF22B5BD5 /* libPods-CarouselDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 329B3C24CB018091EEB54B5A /* libPods-CarouselDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BFDE4061D01D953006D047D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B0ECD701B7CA1EF000E74F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B0ECD771B7CA1EF000E74F9;
+			remoteInfo = CarouselDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		329B3C24CB018091EEB54B5A /* libPods-CarouselDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarouselDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B007F2E1C605C4800380D27 /* DemoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewController.h; sourceTree = "<group>"; };
+		3B007F2F1C605C4800380D27 /* DemoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewController.m; sourceTree = "<group>"; };
+		3B007F311C605C5800380D27 /* DemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCell.h; sourceTree = "<group>"; };
+		3B007F321C605C5800380D27 /* DemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewCell.m; sourceTree = "<group>"; };
+		3B07E3841C5DF78D001F1C54 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = Resource/Macros.h; sourceTree = "<group>"; };
+		3B07E3861C5DF94F001F1C54 /* CarouselCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselCell.h; sourceTree = "<group>"; };
+		3B07E3871C5DF94F001F1C54 /* CarouselCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselCell.m; sourceTree = "<group>"; };
+		3B0ECD781B7CA1EF000E74F9 /* CarouselDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0ECD861B7CA1EF000E74F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B0ECD881B7CA1EF000E74F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B0ECD8B1B7CA1EF000E74F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B4204B21C50AD22003CCB25 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B4204B31C50AD22003CCB25 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B4204B51C50AD2C003CCB25 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SupportingFile/AppDelegate.h; sourceTree = "<group>"; };
+		3B4204B61C50AD2C003CCB25 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SupportingFile/AppDelegate.m; sourceTree = "<group>"; };
+		3B4204B71C50AD2C003CCB25 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFile/Info.plist; sourceTree = "<group>"; };
+		3B4204B81C50AD2C003CCB25 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFile/main.m; sourceTree = "<group>"; };
+		3B4204BD1C50AD3D003CCB25 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		3B4204BE1C50AD3D003CCB25 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		3B4CBB6D1BFCE16B0042958C /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		3B4CBB6E1BFCE16B0042958C /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		3B4CBB6F1BFCE16B0042958C /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		3B4CBB701BFCE16B0042958C /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		3B4CBB711BFCE16B0042958C /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		3B4CBB721BFCE16B0042958C /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		3B4CBB731BFCE16B0042958C /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		3B4CBB741BFCE16B0042958C /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		3B4CBB751BFCE16B0042958C /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		3B4CBB761BFCE16B0042958C /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		3B4CBB771BFCE16B0042958C /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		3B4CBB781BFCE16B0042958C /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		3B4CBB791BFCE16B0042958C /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		3B4CBB7A1BFCE16B0042958C /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		3B4CBB7B1BFCE16B0042958C /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		3B4CBB7C1BFCE16B0042958C /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		3B4CBB7D1BFCE16B0042958C /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		3B4CBB7E1BFCE16B0042958C /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		3B4CBB7F1BFCE16B0042958C /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		3B4CBB801BFCE16B0042958C /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		3B4CBB811BFCE16B0042958C /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		3B4CBB821BFCE16B0042958C /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		3B4CBB831BFCE16B0042958C /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		3B4CBB841BFCE16B0042958C /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		3B4CBB851BFCE16B0042958C /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		3B4CBB861BFCE16B0042958C /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		3B4CBB871BFCE16B0042958C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		3B4CBB881BFCE16B0042958C /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		3B4CBB891BFCE16B0042958C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		3B4F00E21BF487450043EA5E /* PSCarouselCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCarouselCollectionCell.h; sourceTree = "<group>"; };
+		3B4F00E31BF487450043EA5E /* PSCarouselCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSCarouselCollectionCell.m; sourceTree = "<group>"; };
+		3B4F00E51BF487450043EA5E /* PSCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCarouselView.h; sourceTree = "<group>"; };
+		3B4F00E61BF487450043EA5E /* PSCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSCarouselView.m; sourceTree = "<group>"; };
+		3B9C34921CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSCarouselCollectionCell.xib; sourceTree = "<group>"; };
+		3B9C35311CC4C51300E6FFAF /* CarouselDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarouselDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B9C35321CC4C51300E6FFAF /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftViewController.swift; path = CarouselWithSwift/SwiftViewController.swift; sourceTree = "<group>"; };
+		3BDE30931CFE81AA00F8FAF7 /* PSWeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWeaker.h; sourceTree = "<group>"; };
+		3BDE30941CFE81AA00F8FAF7 /* PSWeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWeaker.m; sourceTree = "<group>"; };
+		3BFDE4011D01D953006D047D /* PSCarouselViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSCarouselViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFDE4031D01D953006D047D /* PSCarouselViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSCarouselViewTests.m; sourceTree = "<group>"; };
+		3BFDE4051D01D953006D047D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D8CA93E16F47DCE890B7D2 /* Pods-CarouselDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarouselDemo/Pods-CarouselDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E39D2C6DB7849FD5A9490F20 /* Pods-CarouselDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarouselDemo/Pods-CarouselDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B0ECD751B7CA1EF000E74F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98E7AE183B5CC6DF22B5BD5 /* libPods-CarouselDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFDE3FE1D01D953006D047D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B07E3851C5DF790001F1C54 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C35311CC4C51300E6FFAF /* CarouselDemo-Bridging-Header.h */,
+				3B07E3841C5DF78D001F1C54 /* Macros.h */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		3B0ECD6F1B7CA1EF000E74F9 = {
+			isa = PBXGroup;
+			children = (
+				3B0ECD7A1B7CA1EF000E74F9 /* CarouselDemo */,
+				3BFDE4021D01D953006D047D /* PSCarouselViewTests */,
+				3B0ECD791B7CA1EF000E74F9 /* Products */,
+				9580A4A9F5819E234EF7387A /* Pods */,
+				E8328C556358AA16CA3CF8C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B0ECD791B7CA1EF000E74F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B0ECD781B7CA1EF000E74F9 /* CarouselDemo.app */,
+				3BFDE4011D01D953006D047D /* PSCarouselViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B0ECD7A1B7CA1EF000E74F9 /* CarouselDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3B0ECD851B7CA1EF000E74F9 /* Main.storyboard */,
+				3B0ECD881B7CA1EF000E74F9 /* Images.xcassets */,
+				3B4F00E11BF487450043EA5E /* PSCarouselView */,
+				3B0ECDA81B7CA378000E74F9 /* Demo */,
+				3B4CBB6C1BFCE16B0042958C /* SDWebImage */,
+				3B0ECD7B1B7CA1EF000E74F9 /* Supporting Files */,
+			);
+			path = CarouselDemo;
+			sourceTree = "<group>";
+		};
+		3B0ECD7B1B7CA1EF000E74F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B4204B51C50AD2C003CCB25 /* AppDelegate.h */,
+				3B4204B61C50AD2C003CCB25 /* AppDelegate.m */,
+				3B4204B71C50AD2C003CCB25 /* Info.plist */,
+				3B4204B81C50AD2C003CCB25 /* main.m */,
+				3B0ECD8A1B7CA1EF000E74F9 /* LaunchScreen.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B0ECDA81B7CA378000E74F9 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C35321CC4C51300E6FFAF /* SwiftViewController.swift */,
+				3B4204C01C50AD43003CCB25 /* CarouselInCollectionView */,
+				3B4204BC1C50AD3D003CCB25 /* CarouselInTableView */,
+				3B4204B11C50AD22003CCB25 /* CarouselInView */,
+				3B07E3851C5DF790001F1C54 /* Resource */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		3B4204B11C50AD22003CCB25 /* CarouselInView */ = {
+			isa = PBXGroup;
+			children = (
+				3B4204B21C50AD22003CCB25 /* ViewController.h */,
+				3B4204B31C50AD22003CCB25 /* ViewController.m */,
+			);
+			path = CarouselInView;
+			sourceTree = "<group>";
+		};
+		3B4204BC1C50AD3D003CCB25 /* CarouselInTableView */ = {
+			isa = PBXGroup;
+			children = (
+				3B4204BD1C50AD3D003CCB25 /* DemoTableViewController.h */,
+				3B4204BE1C50AD3D003CCB25 /* DemoTableViewController.m */,
+				3B07E3861C5DF94F001F1C54 /* CarouselCell.h */,
+				3B07E3871C5DF94F001F1C54 /* CarouselCell.m */,
+			);
+			path = CarouselInTableView;
+			sourceTree = "<group>";
+		};
+		3B4204C01C50AD43003CCB25 /* CarouselInCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3B007F2E1C605C4800380D27 /* DemoCollectionViewController.h */,
+				3B007F2F1C605C4800380D27 /* DemoCollectionViewController.m */,
+				3B007F311C605C5800380D27 /* DemoCollectionViewCell.h */,
+				3B007F321C605C5800380D27 /* DemoCollectionViewCell.m */,
+			);
+			path = CarouselInCollectionView;
+			sourceTree = "<group>";
+		};
+		3B4CBB6C1BFCE16B0042958C /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				3B4CBB6D1BFCE16B0042958C /* NSData+ImageContentType.h */,
+				3B4CBB6E1BFCE16B0042958C /* NSData+ImageContentType.m */,
+				3B4CBB6F1BFCE16B0042958C /* SDImageCache.h */,
+				3B4CBB701BFCE16B0042958C /* SDImageCache.m */,
+				3B4CBB711BFCE16B0042958C /* SDWebImageCompat.h */,
+				3B4CBB721BFCE16B0042958C /* SDWebImageCompat.m */,
+				3B4CBB731BFCE16B0042958C /* SDWebImageDecoder.h */,
+				3B4CBB741BFCE16B0042958C /* SDWebImageDecoder.m */,
+				3B4CBB751BFCE16B0042958C /* SDWebImageDownloader.h */,
+				3B4CBB761BFCE16B0042958C /* SDWebImageDownloader.m */,
+				3B4CBB771BFCE16B0042958C /* SDWebImageDownloaderOperation.h */,
+				3B4CBB781BFCE16B0042958C /* SDWebImageDownloaderOperation.m */,
+				3B4CBB791BFCE16B0042958C /* SDWebImageManager.h */,
+				3B4CBB7A1BFCE16B0042958C /* SDWebImageManager.m */,
+				3B4CBB7B1BFCE16B0042958C /* SDWebImageOperation.h */,
+				3B4CBB7C1BFCE16B0042958C /* SDWebImagePrefetcher.h */,
+				3B4CBB7D1BFCE16B0042958C /* SDWebImagePrefetcher.m */,
+				3B4CBB7E1BFCE16B0042958C /* UIButton+WebCache.h */,
+				3B4CBB7F1BFCE16B0042958C /* UIButton+WebCache.m */,
+				3B4CBB801BFCE16B0042958C /* UIImage+GIF.h */,
+				3B4CBB811BFCE16B0042958C /* UIImage+GIF.m */,
+				3B4CBB821BFCE16B0042958C /* UIImage+MultiFormat.h */,
+				3B4CBB831BFCE16B0042958C /* UIImage+MultiFormat.m */,
+				3B4CBB841BFCE16B0042958C /* UIImageView+HighlightedWebCache.h */,
+				3B4CBB851BFCE16B0042958C /* UIImageView+HighlightedWebCache.m */,
+				3B4CBB861BFCE16B0042958C /* UIImageView+WebCache.h */,
+				3B4CBB871BFCE16B0042958C /* UIImageView+WebCache.m */,
+				3B4CBB881BFCE16B0042958C /* UIView+WebCacheOperation.h */,
+				3B4CBB891BFCE16B0042958C /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = SOURCE_ROOT;
+		};
+		3B4F00E11BF487450043EA5E /* PSCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				3B4F00E51BF487450043EA5E /* PSCarouselView.h */,
+				3B4F00E61BF487450043EA5E /* PSCarouselView.m */,
+				3B4F00E21BF487450043EA5E /* PSCarouselCollectionCell.h */,
+				3B4F00E31BF487450043EA5E /* PSCarouselCollectionCell.m */,
+				3B9C34921CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib */,
+				3BDE30931CFE81AA00F8FAF7 /* PSWeaker.h */,
+				3BDE30941CFE81AA00F8FAF7 /* PSWeaker.m */,
+			);
+			path = PSCarouselView;
+			sourceTree = SOURCE_ROOT;
+		};
+		3BFDE4021D01D953006D047D /* PSCarouselViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BFDE4031D01D953006D047D /* PSCarouselViewTests.m */,
+				3BFDE4051D01D953006D047D /* Info.plist */,
+			);
+			path = PSCarouselViewTests;
+			sourceTree = "<group>";
+		};
+		9580A4A9F5819E234EF7387A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E39D2C6DB7849FD5A9490F20 /* Pods-CarouselDemo.debug.xcconfig */,
+				52D8CA93E16F47DCE890B7D2 /* Pods-CarouselDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8328C556358AA16CA3CF8C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				329B3C24CB018091EEB54B5A /* libPods-CarouselDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B0ECD771B7CA1EF000E74F9 /* CarouselDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0ECD9B1B7CA1EF000E74F9 /* Build configuration list for PBXNativeTarget "CarouselDemo" */;
+			buildPhases = (
+				7AC5011668B4D4D91CC3E52E /* Check Pods Manifest.lock */,
+				3B0ECD741B7CA1EF000E74F9 /* Sources */,
+				3B0ECD751B7CA1EF000E74F9 /* Frameworks */,
+				3B0ECD761B7CA1EF000E74F9 /* Resources */,
+				DA318B65DF5F4DF419D29D23 /* Embed Pods Frameworks */,
+				C79C55E248A234CA6E700023 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarouselDemo;
+			productName = CarouselDemo;
+			productReference = 3B0ECD781B7CA1EF000E74F9 /* CarouselDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BFDE4001D01D953006D047D /* PSCarouselViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BFDE40A1D01D953006D047D /* Build configuration list for PBXNativeTarget "PSCarouselViewTests" */;
+			buildPhases = (
+				3BFDE3FD1D01D953006D047D /* Sources */,
+				3BFDE3FE1D01D953006D047D /* Frameworks */,
+				3BFDE3FF1D01D953006D047D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BFDE4071D01D953006D047D /* PBXTargetDependency */,
+			);
+			name = PSCarouselViewTests;
+			productName = PSCarouselViewTests;
+			productReference = 3BFDE4011D01D953006D047D /* PSCarouselViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B0ECD701B7CA1EF000E74F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Pan;
+				TargetAttributes = {
+					3B0ECD771B7CA1EF000E74F9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3B13B3D41CDCA09300E7F6A3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3BFDE4001D01D953006D047D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3B0ECD771B7CA1EF000E74F9;
+					};
+				};
+			};
+			buildConfigurationList = 3B0ECD731B7CA1EF000E74F9 /* Build configuration list for PBXProject "CarouselDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B0ECD6F1B7CA1EF000E74F9;
+			productRefGroup = 3B0ECD791B7CA1EF000E74F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B0ECD771B7CA1EF000E74F9 /* CarouselDemo */,
+				3B13B3D41CDCA09300E7F6A3 /* doc */,
+				3BFDE4001D01D953006D047D /* PSCarouselViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B0ECD761B7CA1EF000E74F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0ECD871B7CA1EF000E74F9 /* Main.storyboard in Resources */,
+				3B0ECD8C1B7CA1EF000E74F9 /* LaunchScreen.xib in Resources */,
+				3B9C34931CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib in Resources */,
+				3B0ECD891B7CA1EF000E74F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFDE3FF1D01D953006D047D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B13B3D81CDCA09800E7F6A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"Shengpan\";\ncompanyID=\"net.shengpan\";\ncompanyURL=\"http://shengpan.net\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"./doc\";\n# End constants\n\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--no-create-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n./PSCarouselView \\\n#\"${PROJECT_DIR}\"\n";
+		};
+		7AC5011668B4D4D91CC3E52E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C79C55E248A234CA6E700023 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarouselDemo/Pods-CarouselDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA318B65DF5F4DF419D29D23 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarouselDemo/Pods-CarouselDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B0ECD741B7CA1EF000E74F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9C35331CC4C51300E6FFAF /* SwiftViewController.swift in Sources */,
+				3B4CBB951BFCE16B0042958C /* UIImageView+HighlightedWebCache.m in Sources */,
+				3B4CBB941BFCE16B0042958C /* UIImage+MultiFormat.m in Sources */,
+				3B4CBB8F1BFCE16B0042958C /* SDWebImageDownloaderOperation.m in Sources */,
+				3B4CBB8C1BFCE16B0042958C /* SDWebImageCompat.m in Sources */,
+				3B4204B91C50AD2C003CCB25 /* AppDelegate.m in Sources */,
+				3B4CBB971BFCE16B0042958C /* UIView+WebCacheOperation.m in Sources */,
+				3B4CBB931BFCE16B0042958C /* UIImage+GIF.m in Sources */,
+				3B4CBB911BFCE16B0042958C /* SDWebImagePrefetcher.m in Sources */,
+				3B4204B41C50AD22003CCB25 /* ViewController.m in Sources */,
+				3B4F00E91BF487450043EA5E /* PSCarouselView.m in Sources */,
+				3B4CBB8E1BFCE16B0042958C /* SDWebImageDownloader.m in Sources */,
+				3B007F301C605C4800380D27 /* DemoCollectionViewController.m in Sources */,
+				3B4CBB921BFCE16B0042958C /* UIButton+WebCache.m in Sources */,
+				3B4204BF1C50AD3D003CCB25 /* DemoTableViewController.m in Sources */,
+				3B4CBB8A1BFCE16B0042958C /* NSData+ImageContentType.m in Sources */,
+				3B07E3881C5DF94F001F1C54 /* CarouselCell.m in Sources */,
+				3B4F00E71BF487450043EA5E /* PSCarouselCollectionCell.m in Sources */,
+				3B007F331C605C5800380D27 /* DemoCollectionViewCell.m in Sources */,
+				3BDE30951CFE81AA00F8FAF7 /* PSWeaker.m in Sources */,
+				3B4CBB961BFCE16B0042958C /* UIImageView+WebCache.m in Sources */,
+				3B4CBB901BFCE16B0042958C /* SDWebImageManager.m in Sources */,
+				3B4CBB8D1BFCE16B0042958C /* SDWebImageDecoder.m in Sources */,
+				3B4204BB1C50AD2C003CCB25 /* main.m in Sources */,
+				3B4CBB8B1BFCE16B0042958C /* SDImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFDE3FD1D01D953006D047D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFDE4041D01D953006D047D /* PSCarouselViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BFDE4071D01D953006D047D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B0ECD771B7CA1EF000E74F9 /* CarouselDemo */;
+			targetProxy = 3BFDE4061D01D953006D047D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B0ECD851B7CA1EF000E74F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B0ECD861B7CA1EF000E74F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B0ECD8A1B7CA1EF000E74F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B0ECD8B1B7CA1EF000E74F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B0ECD991B7CA1EF000E74F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B0ECD9A1B7CA1EF000E74F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B0ECD9C1B7CA1EF000E74F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39D2C6DB7849FD5A9490F20 /* Pods-CarouselDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/CarouselDemo/SupportingFile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.shengpan.CarouselDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarouselDemo/CarouselDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B0ECD9D1B7CA1EF000E74F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D8CA93E16F47DCE890B7D2 /* Pods-CarouselDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/CarouselDemo/SupportingFile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.shengpan.CarouselDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarouselDemo/CarouselDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		3B13B3D51CDCA09400E7F6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B13B3D61CDCA09400E7F6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BFDE4081D01D953006D047D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PSCarouselViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.shengpan.PSCarouselViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarouselDemo.app/CarouselDemo";
+			};
+			name = Debug;
+		};
+		3BFDE4091D01D953006D047D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = PSCarouselViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.shengpan.PSCarouselViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarouselDemo.app/CarouselDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B0ECD731B7CA1EF000E74F9 /* Build configuration list for PBXProject "CarouselDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0ECD991B7CA1EF000E74F9 /* Debug */,
+				3B0ECD9A1B7CA1EF000E74F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0ECD9B1B7CA1EF000E74F9 /* Build configuration list for PBXNativeTarget "CarouselDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0ECD9C1B7CA1EF000E74F9 /* Debug */,
+				3B0ECD9D1B7CA1EF000E74F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B13B3D71CDCA09400E7F6A3 /* Build configuration list for PBXAggregateTarget "doc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B13B3D51CDCA09400E7F6A3 /* Debug */,
+				3B13B3D61CDCA09400E7F6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BFDE40A1D01D953006D047D /* Build configuration list for PBXNativeTarget "PSCarouselViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFDE4081D01D953006D047D /* Debug */,
+				3BFDE4091D01D953006D047D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B0ECD701B7CA1EF000E74F9 /* Project object */;
+}
