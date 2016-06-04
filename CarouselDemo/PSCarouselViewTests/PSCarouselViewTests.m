@@ -66,7 +66,6 @@
 #pragma mark - PSCarouselDelegate
 - (void)carousel:(nonnull PSCarouselView *)carousel didMoveToPage:(NSUInteger)page
 {
-    NSLog(@"%ld", page);
     [self.passByIndexArray addObject:@(page)];
     // 让轮播走两个循环，看看顺序是不是对的。
     NSInteger imageCount = [self imageURLs].count;

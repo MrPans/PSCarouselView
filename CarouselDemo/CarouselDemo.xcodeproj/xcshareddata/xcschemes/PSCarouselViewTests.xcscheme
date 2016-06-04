@@ -8,10 +8,10 @@
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BFDE4001D01D953006D047D"
@@ -56,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3BFDE4001D01D953006D047D"
-            BuildableName = "PSCarouselViewTests.xctest"
-            BlueprintName = "PSCarouselViewTests"
+            BlueprintIdentifier = "3B0ECD771B7CA1EF000E74F9"
+            BuildableName = "CarouselDemo.app"
+            BlueprintName = "CarouselDemo"
             ReferencedContainer = "container:CarouselDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -78,9 +78,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3BFDE4001D01D953006D047D"
-            BuildableName = "PSCarouselViewTests.xctest"
-            BlueprintName = "PSCarouselViewTests"
+            BlueprintIdentifier = "3B0ECD771B7CA1EF000E74F9"
+            BuildableName = "CarouselDemo.app"
+            BlueprintName = "CarouselDemo"
             ReferencedContainer = "container:CarouselDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,9 +96,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3BFDE4001D01D953006D047D"
-            BuildableName = "PSCarouselViewTests.xctest"
-            BlueprintName = "PSCarouselViewTests"
+            BlueprintIdentifier = "3B0ECD771B7CA1EF000E74F9"
+            BuildableName = "CarouselDemo.app"
+            BlueprintName = "CarouselDemo"
             ReferencedContainer = "container:CarouselDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
