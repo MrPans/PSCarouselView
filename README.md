@@ -36,9 +36,13 @@ Download zip and unarchiver.Drag 'PSCarouselView' folder into your project.
 3. connect `IBOutlet` to Your ViewController.
 4. set PSCarouselView's `imageURL` property.
 
-###Tips：
+### Tips：
 1. Implement `PSCarouselViewDelegate` if you want to make a pageControl.
 2. `SDWebImage` framework is necessary.Make sure you had imported `SDWebImage` when import `PSCarouselView` manually.if you import with cocoapods,don't worry abount that.
+
+### API Reference
+
+[shengpan.net](http://doc.shengpan.net/Classes/PSCarouselView.html) or [CocoaPods Doc](http://cocoadocs.org/docsets/PSCarouselView/1.3.0)
 
 For more，download and see the demo。
 
@@ -75,6 +79,10 @@ For more，download and see the demo。
 ###注意：
 1. 如果你想做个pageControl，请实现代理方法。
 2. 控件需要使用SDWebImage，不使用CocoaPods的情况下，请确保你的工程中导入了SDWebImage。
+
+### 文档
+
+API文档详见 [shengpan.net](http://doc.shengpan.net/Classes/PSCarouselView.html) 或者 [CocoaPods Doc](http://cocoadocs.org/docsets/PSCarouselView/1.3.0)
 
 详情请参阅Demo
 
