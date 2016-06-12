@@ -6,6 +6,6 @@
 target 'CarouselDemo' do
 	
 pod 'FBRetainCycleDetector'
-
+pod 'SDWebImage'
 end
 
