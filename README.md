@@ -1,3 +1,5 @@
+[![logo][logo]][blog]
+
 # PSCarouselView (中文在后)
 
 [![Build Status][status]][travis]
@@ -103,4 +105,9 @@ API文档详见 [shengpan.net](http://doc.shengpan.net/Classes/PSCarouselView.ht
 [platform]: https://img.shields.io/cocoapods/p/PSCarouselView.svg?style=flat
 
 [SwiftCompatible]: https://img.shields.io/badge/Swift-compatible-orange.svg
+
+[logo]: https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/logo.png
+
+[blog]: http://shengpan.net
+
 
