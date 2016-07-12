@@ -1,9 +1,11 @@
 # PSCarouselView (中文在后)
 
-[![Build Status](https://travis-ci.org/DeveloperPans/PSCarouselView.svg?branch=master)](https://travis-ci.org/DeveloperPans/PSCarouselView)
-[![Pod Version](https://img.shields.io/cocoapods/v/PSCarouselView.svg?style=flat)](http://cocoapods.org/pods/PSCarouselView)
-[![License](https://img.shields.io/cocoapods/l/PSCarouselView.svg?style=flat)](http://cocoapods.org/pods/PSCarouselView) 
-[![Platform](https://img.shields.io/cocoapods/p/PSCarouselView.svg?style=flat)](http://cocoapods.org/pods/PSCarouselView)
+[![Build Status][status]][travis]
+[![docs][docs]][CocoaPods]
+[![Pod Version][version]][CocoaPods]
+[![License][license]][CocoaPods]
+[![Platform][platform]][CocoaPods]
+![SwiftCompatible][SwiftCompatible]
 
 A drop-in carousel view. Most of Apps put it in their first screen.
 
@@ -85,4 +87,20 @@ For more，download and see the demo。
 API文档详见 [shengpan.net](http://doc.shengpan.net/Classes/PSCarouselView.html) 或者 [CocoaPods Doc](http://cocoadocs.org/docsets/PSCarouselView/1.3.0)
 
 详情请参阅Demo
+
+[CocoaPods]: http://cocoapods.org/pods/PSCarouselView
+
+[travis]: (https://travis-ci.org/DeveloperPans/PSCarouselView)
+
+[docs]: https://img.shields.io/cocoapods/metrics/doc-percent/PSCarouselView.svg
+
+[version]: https://img.shields.io/cocoapods/v/PSCarouselView.svg?style=flat
+
+[status]: https://travis-ci.org/DeveloperPans/PSCarouselView.svg?branch=master
+
+[license]: https://img.shields.io/cocoapods/l/PSCarouselView.svg?style=flat
+
+[platform]: https://img.shields.io/cocoapods/p/PSCarouselView.svg?style=flat
+
+[SwiftCompatible]: https://img.shields.io/badge/Swift-compatible-orange.svg
 
