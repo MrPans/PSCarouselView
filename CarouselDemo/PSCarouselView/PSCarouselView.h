@@ -46,7 +46,7 @@
 
 /**
  *  一个简单易用的广告轮播控件
- *  @see 设计思路请查看[这里](http://shengpan.net/pscarouselview/)
+ *  @see 设计思路请查看[这里]:http://shengpan.net/pscarouselview/
  */
 @interface PSCarouselView : UICollectionView
 
@@ -68,7 +68,7 @@
 /**
  *  滚动速率 默认为3.0 即3秒翻页一次
  */
-@property (nonatomic) IBInspectable CGFloat movingTimeInterval;/**< */
+@property (nonatomic) IBInspectable CGFloat movingTimeInterval;
 
 /**
  *  图片显示的缩放模式,默认为ScaleAspectFill

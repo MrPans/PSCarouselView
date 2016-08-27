@@ -1,5 +1,13 @@
 # Change Log
 
+#### V 1.3.2
+
+Fix #10
+
+#### V 1.3.2
+
+Fix BUG
+
 #### V 1.3.0
 
 Fix #9.
@@ -17,3 +25,4 @@ Pure code usage supported.
 ```
 fix bug
 ```
+

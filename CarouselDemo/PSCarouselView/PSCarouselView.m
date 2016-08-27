@@ -265,7 +265,19 @@
     [self tellDelegateCurrentPage];
 
 }
+
+#pragma mark - UITraitEnvironment
+
+// fix #10
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
+{
+    [super traitCollectionDidChange:previousTraitCollection];
+    self.needRefresh = YES;
+    [self reloadData];
+}
+
 #pragma mark - Private
+
 - (void)jumpToLastImage
 {
     NSIndexPath *indexPath = [NSIndexPath indexPathForItem:[self.imageURLs count] - 2 inSection:0];
