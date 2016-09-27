@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="N5G-AU-KFc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="N5G-AU-KFc">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Carousel in View-->
@@ -18,14 +19,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WPI-8B-nrd">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kh9-bI-dsS" userLabel="contentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                                         <subviews>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pLz-b0-Uqz" customClass="PSCarouselView">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="144"/>
-                                                <color key="backgroundColor" red="0.47450980390000003" green="0.47450980390000003" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.47450980390000003" green="0.47450980390000003" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="144" id="PTd-5F-ycW"/>
                                                 </constraints>
@@ -40,16 +38,14 @@
                                                     <userDefinedRuntimeAttribute type="image" keyPath="placeholder" value="placeholder"/>
                                                 </userDefinedRuntimeAttributes>
                                             </collectionView>
-                                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="YKu-ZV-KHs">
-                                                <rect key="frame" x="141" y="107" width="39" height="37"/>
-                                            </pageControl>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="滚动速度:1.5秒/次" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBs-Am-Gy7">
-                                                <rect key="frame" x="12" y="473" width="96" height="15"/>
+                                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="YKu-ZV-KHs"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="滚动速度:1.5秒/次" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBs-Am-Gy7">
+                                                <frame key="frameInset" minX="12" minY="473" width="96" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="56" id="v00-IG-bxk"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="default">
                                                     <mask key="constraints">
@@ -57,35 +53,32 @@
                                                     </mask>
                                                 </variation>
                                             </label>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1.5" minValue="0.0" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="fvb-De-ckD">
-                                                <rect key="frame" x="118" y="466" width="192" height="31"/>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1.5" minValue="0.0" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="fvb-De-ckD">
+                                                <frame key="frameInset" minX="118" minY="466" width="192" height="31"/>
                                                 <connections>
                                                     <action selector="didDragSpeedSlider:" destination="vXZ-lx-hvc" eventType="valueChanged" id="R1m-r2-p13"/>
                                                 </connections>
                                             </slider>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9N-ri-YHh">
-                                                <rect key="frame" x="85" y="428" width="150" height="30"/>
                                                 <state key="normal" title="Carousel in TableView"/>
                                                 <connections>
                                                     <segue destination="4zc-bv-zul" kind="show" id="vt0-7o-X14"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gph-k6-iW0">
-                                                <rect key="frame" x="69" y="390" width="182" height="30"/>
                                                 <state key="normal" title="Carousel in CollectionView"/>
                                                 <connections>
                                                     <segue destination="G12-ML-h6m" kind="show" id="QMe-wN-FIU"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVc-ar-URd">
-                                                <rect key="frame" x="94" y="352" width="132" height="30"/>
                                                 <state key="normal" title="Carousel with Swift"/>
                                                 <connections>
                                                     <segue destination="mdu-43-WEQ" kind="show" id="DaS-VX-gf5"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="fvb-De-ckD" secondAttribute="bottom" constant="8" id="1IR-aY-Xg1"/>
                                             <constraint firstItem="xBs-Am-Gy7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="12" id="4Sy-Nn-NuQ"/>
@@ -114,7 +107,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="WPI-8B-nrd" secondAttribute="trailing" id="6hL-Dd-Ukp"/>
                             <constraint firstItem="WPI-8B-nrd" firstAttribute="leading" secondItem="qcO-ym-r8s" secondAttribute="leading" id="9oT-wq-L2Y"/>
@@ -125,7 +118,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Carousel in ScrollView" id="EST-Sc-QWS"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="carouselView" destination="pLz-b0-Uqz" id="u3e-0Y-TEW"/>
                         <outlet property="pageControl" destination="YKu-ZV-KHs" id="psD-0x-Aq7"/>
@@ -134,7 +126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="719" y="322"/>
+            <point key="canvasLocation" x="1046" y="321"/>
         </scene>
         <!--Carousel in TableView-->
         <scene sceneID="e8q-nX-dbS">
@@ -143,18 +135,17 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" sectionHeaderHeight="28" sectionFooterHeight="28" id="RrH-gO-VmW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CarouselCell" rowHeight="120" id="lGJ-rs-ih6" customClass="CarouselCell">
                                 <rect key="frame" x="0.0" y="92" width="320" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lGJ-rs-ih6" id="PH0-Kh-M06">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
+                                    <frame key="frameInset" width="320" height="119.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pNg-ZP-hw2" customClass="PSCarouselView">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
-                                            <color key="backgroundColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pNg-ZP-hw2" customClass="PSCarouselView">
+                                            <color key="backgroundColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="144" id="jS0-F6-glQ"/>
                                             </constraints>
@@ -192,7 +183,7 @@
                                 <rect key="frame" x="0.0" y="212" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F9c-9M-QCi" id="CO0-G7-101">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                                    <frame key="frameInset" width="320" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -206,7 +197,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5U-eP-ivF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1117" y="322"/>
+            <point key="canvasLocation" x="1763" y="321"/>
         </scene>
         <!--Swift View Controller-->
         <scene sceneID="r3E-65-cBK">
@@ -219,7 +210,7 @@
                     <view key="view" contentMode="scaleToFill" id="p8i-QW-y1M">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kwh-fO-rTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -241,14 +232,13 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DemoCollectionViewCell" id="gzB-c0-h9d" customClass="DemoCollectionViewCell">
-                                <rect key="frame" x="0.0" y="64" width="128" height="125"/>
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="128" height="125"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="N7u-1u-GCd" customClass="PSCarouselView">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="125"/>
                                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="XwO-24-f13">
                                                 <size key="itemSize" width="50" height="50"/>
                                                 <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -265,7 +255,6 @@
                                             </userDefinedRuntimeAttributes>
                                         </collectionView>
                                     </subviews>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="N7u-1u-GCd" secondAttribute="bottom" id="8aI-dq-dFX"/>
@@ -286,14 +275,13 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uaJ-vW-Dtz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1117" y="1000"/>
+            <point key="canvasLocation" x="1449" y="1043"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qoe-Rm-Hxc">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N5G-AU-KFc" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="TRT-Bl-WDM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -309,6 +297,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="placeholder" width="375" height="165"/>
+        <image name="placeholder" width="375" height="164"/>
     </resources>
 </document>
