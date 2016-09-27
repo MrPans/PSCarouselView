@@ -9,40 +9,71 @@
 [![Platform][platform]][CocoaPods]
 ![SwiftCompatible][SwiftCompatible]
 
-A drop-in carousel view. Most of Apps put it in their first screen.
+A drop-in carousel view. Most Applications put it in their first screen.
 
 ---
-
-#### **update**
-
-`enhancement` Storyboard inspector supported since version `1.1.0`
-
-![image](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/Inspector.png)
- 
 
 ### Preview 
 ![image](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/PSCarouselView.gif)
 
+#### **Enhancement**
+
+Storyboard inspector supported since version **1.1.0**
+
+![image](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/Inspector.png)
+
+
+### Installation with CocoaPods
+
+Specify it in your `podfile`:
+
+```ruby
+pod 'PSCarouselView'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+### Install manually
+
+Clone project, add `PSCarouselView` folder to your project and don't forget check the *copy item if needed* box. 
+
+`SDWebImage` framework **required**. Make sure you had imported `SDWebImage` when install `PSCarouselView` manually. 
+
 ### Getting Start
 
-#####`Recommend` Import with Cocoapods
-add follow line into your podfile:
+1.Drag a `UICollectionView` into your Storyboard and make sure your constraints has been set.
 
-    pod 'PSCarouselView'
+2.Set `PSCarouselView` as a custom class for this collectionView in Storyboard Inspector.
+
+![custom class](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/customclass.png)
+
+3.Connect `IBOutlet` to Your ViewController.
     
-#####Import manually
-Download zip and unarchiver.Drag 'PSCarouselView' folder into your project.
+```objc
+@interface ViewController ()<PSCarouselDelegate>
 
+@property (weak, nonatomic) IBOutlet PSCarouselView *carouselView;
+```
 
-### Usage
-1. Drag A `UICollectionView` into your Storyboard and make sure your constraints has been settled.
-2. Set `PSCarouselView` as a custom class for this collectionView in Storyboard Inspector.
-3. connect `IBOutlet` to Your ViewController.
-4. set PSCarouselView's `imageURL` property.
+4.Set value for PSCarouselView's `imageURL` property.
 
-### Tips：
-1. Implement `PSCarouselViewDelegate` if you want to make a pageControl.
-2. `SDWebImage` framework is necessary.Make sure you had imported `SDWebImage` when import `PSCarouselView` manually.if you import with cocoapods,don't worry abount that.
+5.Implement `PSCarouselDelegate` if you want to make a pageControl.
+
+```objc
+- (void)carousel:(PSCarouselView *)carousel didMoveToPage:(NSUInteger)page
+{
+    self.pageControl.currentPage = page;
+}
+
+- (void)carousel:(PSCarouselView *)carousel didTouchPage:(NSUInteger)page
+{
+    NSLog(@"PSCarouselView did TOUCH No.%ld page",page);
+}
+```
 
 ### API Reference
 
