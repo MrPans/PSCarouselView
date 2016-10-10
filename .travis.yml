@@ -5,4 +5,4 @@ before_install:
 - brew update
 - brew outdated xctool || brew upgrade xctool
 script:
-- xcodebuild -workspace ./CarouselDemo/CarouselDemo.xcworkspace -scheme 'PSCarouselViewTests'
+- xctool -workspace ./CarouselDemo/CarouselDemo.xcworkspace -scheme 'PSCarouselViewTests' -sdk iphonesimulator test
