@@ -1,9 +1,8 @@
 language: objective-c
-osx_image: xcode7.2
-# sudo: false
+osx_image: xcode8
+
 before_install:
 - brew update
 - brew outdated xctool || brew upgrade xctool
 script:
-- xctool -workspace ./CarouselDemo/CarouselDemo.xcworkspace -scheme 'PSCarouselViewTests' -sdk iphonesimulator test
-# -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest' test
+- xcodebuild -workspace ./CarouselDemo/CarouselDemo.xcworkspace -scheme 'PSCarouselViewTests'
