@@ -72,6 +72,7 @@
 
 - (void)carousel:(PSCarouselView *)carousel didMoveToPage:(NSUInteger)page
 {
+    NSLog(@"PSCarouselView MOVE to No.%ld page",page);
     self.pageControl.currentPage = page;
 }
 
