@@ -99,7 +99,8 @@
 - (nullable instancetype)initWithCoder:(nonnull NSCoder *)aDecoder NS_DESIGNATED_INITIALIZER;
 
 /**
- *  开始轮播
+ *  开始轮播。
+ *  当图片数量 < 2 张 或者 isAutoMoving == NO 的时候，调用此 API 不会产生任何效果。
  */
 - (void)startMoving;
 

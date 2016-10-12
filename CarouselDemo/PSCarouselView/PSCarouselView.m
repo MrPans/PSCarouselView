@@ -91,14 +91,13 @@
 
 - (void)startMoving
 {
-    [self addTimer];
+    [self startMovingIfNeeded];
 }
 
 - (void)stopMoving
 {
     [self removeTimer];
 }
-
 
 #pragma mark - UICollectionViewDelegate
 
@@ -160,13 +159,10 @@
     [self removeTimer];
 }
 
-// 用户拖拽完成，恢复自动轮播（如果需要的话
+// 用户拖拽完成，恢复自动轮播（如果需要的话）
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
-    if (self.isAutoMoving)
-    {
-        [self addTimer];
-    }
+    [self startMovingIfNeeded];
 }
 
 #pragma mark - UITraitEnvironment
@@ -312,6 +308,13 @@
     }
 }
 
+- (void)startMovingIfNeeded
+{
+    if (self.isAutoMoving && self.imageURLs.count > 3)
+    {
+        [self addTimer];
+    }
+}
 #pragma mark - Notification
 //程序被暂停的时候，应该停止计时器
 - (void)applicationWillResignActive
@@ -322,10 +325,7 @@
 //程序从暂停状态回归的时候，重新启动计时器
 - (void)applicationDidBecomeActive
 {
-    if (self.isAutoMoving)
-    {
-        [self startMoving];
-    }
+    [self startMovingIfNeeded];
 }
 
 #pragma mark - Getter and Setter
@@ -352,14 +352,17 @@
     }
     [self reloadData];
     _needRefresh = YES;
+    
+    // 图片数量少于 2 张的时候，手指不能滚动。
+    if (imageURLs.count < 2)
+    {
+        self.scrollEnabled = NO;
+    }
 }
 
 - (void)setMovingTimeInterval:(CGFloat)movingTimeInterval
 {
     _movingTimeInterval = movingTimeInterval;
-    if (self.timer)
-    {
-        [self startMoving];
-    }
+    [self startMovingIfNeeded];
 }
 @end
