@@ -354,10 +354,7 @@
     _needRefresh = YES;
     
     // 图片数量少于 2 张的时候，手指不能滚动。
-    if (imageURLs.count < 2)
-    {
-        self.scrollEnabled = NO;
-    }
+    self.scrollEnabled = imageURLs.count > 1;
 }
 
 - (void)setMovingTimeInterval:(CGFloat)movingTimeInterval
