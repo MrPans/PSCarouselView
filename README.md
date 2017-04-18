@@ -92,16 +92,16 @@ For more，download and see the demo。
 
 ![image](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/Inspector.png)
 
-###预览图 
+### 预览图 
 ![image](https://raw.githubusercontent.com/DeveloperPans/PSCarouselView/master/PSCarouselView.gif)
 
 ### 导入库
-#####`推荐`使用CocoaPods导入
+##### `推荐`使用CocoaPods导入
 在你的podfile文件中加入如下一行
 
     pod 'PSCarouselView'
     
-#####下载并手动导入
+##### 下载并手动导入
 下载zip，解压并把`PSCarouselView`文件夹以及里面的文件添加到你的工程。
 
 
@@ -111,7 +111,7 @@ For more，download and see the demo。
 3. 连接`IBOutlet`到`ViewController`
 4. 给carouselView的*`imageURL`*赋值。
 
-###注意：
+### 注意：
 1. 如果你想做个pageControl，请实现代理方法。
 2. 控件需要使用SDWebImage，不使用CocoaPods的情况下，请确保你的工程中导入了SDWebImage。
 
