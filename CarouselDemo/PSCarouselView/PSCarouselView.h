@@ -9,6 +9,11 @@
 
 @class PSCarouselView;
 
+typedef NS_ENUM(NSInteger, PSCarouselViewScrollDirection) {
+    PSCarouselViewScrollDirectionRightToLeft = 0,
+    PSCarouselViewScrollDirectionLeftToRight
+};
+
 /**
  *  PSCarouselView的代理方法
  */
@@ -79,6 +84,11 @@
  *  PSCarouselView的代理
  */
 @property (nullable, nonatomic, weak) id<PSCarouselDelegate> pageDelegate;
+
+/**
+ *  自动滚动时的滚动方向。默认是 PSCarouselViewScrollDirectionRightToLeft。
+ */
+@property (nonatomic, assign) PSCarouselViewScrollDirection scrollDirection;
 
 /**
  *  初始化并返回一个指定Frame的PSCarouselView

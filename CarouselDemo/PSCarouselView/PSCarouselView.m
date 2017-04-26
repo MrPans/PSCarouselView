@@ -17,8 +17,8 @@
 #import "PSWeaker.h"
 
 @interface PSCarouselView()<UICollectionViewDelegate,
-                            UICollectionViewDataSource,
-                            UICollectionViewDelegateFlowLayout>
+UICollectionViewDataSource,
+UICollectionViewDelegateFlowLayout>
 
 
 @property (nonatomic, strong) NSTimer *timer;
@@ -73,8 +73,12 @@
 {
     if (self.isNeedRefresh && self.imageURLs.count)
     {
-        //最左边一张图其实是最后一张图，因此移动到第二张图，也就是imageURL的第一个URL的图。
-        [self scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:1 inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
+        // 根据滚动方向，移动到第一张或者最后一张图片的位置
+        NSInteger item = self.scrollDirection == PSCarouselViewScrollDirectionRightToLeft
+        ? 1
+        : self.imageURLs.count - 2;
+        
+        [self scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:item inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
         self.needRefresh = NO;
     }
     // layoutSubviews 仅仅会lay out 当前屏幕的View.所以要先滚动位置，然后调用layoutSubViews;
@@ -109,9 +113,9 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     PSCarouselCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:REUSE_IDENTIFIER forIndexPath:indexPath];
-
+    
     cell.adImageView.contentMode = self.imageViewMode;
-
+    
     if (![self.imageURLs count])
     {
         [cell.adImageView setImage:self.placeholder];
@@ -252,6 +256,7 @@
     _imageViewMode = UIViewContentModeScaleAspectFill;
     _movingTimeInterval = DEFAULT_MOVING_TIMEINTERVAL;
     _autoMoving = NO;
+    _scrollDirection = PSCarouselViewScrollDirectionRightToLeft;
     
     self.delegate = self;
     self.dataSource = self;
@@ -294,7 +299,10 @@
     if (self.imageURLs.count > 1)
     {
         NSIndexPath *currentIndexPath = [self indexPathForItemAtPoint:self.contentOffset];
-        NSIndexPath *nextIndexPath = [NSIndexPath indexPathForItem:currentIndexPath.item + 1
+        NSInteger item = self.scrollDirection == PSCarouselViewScrollDirectionRightToLeft
+        ? (currentIndexPath.item + 1)
+        : (currentIndexPath.item - 1);
+        NSIndexPath *nextIndexPath = [NSIndexPath indexPathForItem:item
                                                          inSection:currentIndexPath.section];
         [self scrollToItemAtIndexPath:nextIndexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
     }

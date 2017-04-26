@@ -48,5 +48,7 @@
 {
     _speed = speed;
     self.carouselView.movingTimeInterval = speed;
+    NSInteger integer = (int)(speed + 0.5);
+    self.carouselView.scrollDirection = integer % 2;
 }
 @end
