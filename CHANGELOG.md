@@ -1,5 +1,15 @@
 # Change Log
 
+#### v1.5.1
+
+**ENHANCEMENT**
+
+* 新加接口，可以选择滚动方向
+
+**BUG FIX**
+
+* Prevent #13
+
 #### V 1.4.0
 
 **ENHANCEMENT**
