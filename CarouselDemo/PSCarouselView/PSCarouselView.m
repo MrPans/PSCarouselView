@@ -183,12 +183,21 @@ UICollectionViewDelegateFlowLayout>
 
 - (void)jumpToLastImage
 {
-    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:[self.imageURLs count] - 2 inSection:0];
+    NSInteger lastItem = self.imageURLs.count - 2;
+    if (lastItem < 0) {
+        return;
+    }
+    
+    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:lastItem inSection:0];
     [self scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
 }
 
 - (void)jumpToFirstImage
 {
+    if (self.imageURLs.count < 2) {
+        return;
+    }
+    
     NSIndexPath *indexPath = [NSIndexPath indexPathForItem:1 inSection:0];
     [self scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
 }
