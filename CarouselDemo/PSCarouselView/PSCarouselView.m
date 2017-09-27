@@ -295,6 +295,7 @@ UICollectionViewDelegateFlowLayout>
     PSWeaker *weaker = [[PSWeaker alloc] initWithObject:self];
     self.timer = [NSTimer scheduledTimerWithTimeInterval:speed target:weaker selector:@selector(moveToNextPage) userInfo:nil repeats:YES];
     self.timer.tolerance = 0.1 * speed;// for increased power savings and responsiveness
+    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];//
 }
 
 - (void)removeTimer
