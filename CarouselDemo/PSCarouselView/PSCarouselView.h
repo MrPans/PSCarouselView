@@ -65,6 +65,9 @@ typedef NS_ENUM(NSInteger, PSCarouselViewScrollDirection) {
  */
 @property (nullable, nonatomic, strong) IBInspectable UIImage *placeholder;
 
+
+#pragma mark - Configuration
+
 /**
  *   是否自动轮播,默认为NO
  */
@@ -74,6 +77,11 @@ typedef NS_ENUM(NSInteger, PSCarouselViewScrollDirection) {
  *  滚动速率 默认为3.0 即3秒翻页一次
  */
 @property (nonatomic) IBInspectable CGFloat movingTimeInterval;
+
+/**
+ 系统在追踪用户手势时是否继续轮播。例如：scrollView 滑动时。设为 YES 会有潜在的性能影响。默认为 NO。
+ */
+@property (nonatomic, assign, getter=isMovingOnTraking) IBInspectable BOOL movingOnTracking;
 
 /**
  *  图片显示的缩放模式,默认为ScaleAspectFill
