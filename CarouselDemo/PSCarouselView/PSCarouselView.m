@@ -278,7 +278,8 @@ UICollectionViewDelegateFlowLayout>
         layout.minimumInteritemSpacing = 0;
         layout.minimumLineSpacing = 0;
     }
-    [self registerNib:[UINib nibWithNibName:REUSE_IDENTIFIER bundle:nil] forCellWithReuseIdentifier:REUSE_IDENTIFIER];
+    NSBundle *bundle = [NSBundle bundleForClass:self.class];
+    [self registerNib:[UINib nibWithNibName:REUSE_IDENTIFIER bundle:bundle] forCellWithReuseIdentifier:REUSE_IDENTIFIER];
     [self registerNofitication];
 }
 
