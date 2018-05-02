@@ -6,7 +6,7 @@
 //
 
 #import "CarouselCell.h"
-#import "PSCarouselView.h"
+#import <PSCarouselView/PSCarouselView.h>
 #import "Macros.h"
 
 @interface CarouselCell ()

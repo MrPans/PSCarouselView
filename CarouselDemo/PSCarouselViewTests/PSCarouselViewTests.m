@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "PSCarouselView.h"
+#import <PSCarouselView/PSCarouselView.h>
 #import "Macros.h"
 
 @interface PSCarouselViewTests : XCTestCase <PSCarouselDelegate>

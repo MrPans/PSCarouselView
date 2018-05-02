@@ -11,7 +11,7 @@
 #define MIN_MOVING_TIMEINTERVAL       0.3 //最小滚动时间间隔
 #define DEFAULT_MOVING_TIMEINTERVAL   3.0 //默认滚动时间间隔
 
-#import "PSCarouselView.h"
+#import <PSCarouselView/PSCarouselView.h>
 #import "PSCarouselCollectionCell.h"
 #import "UIImageView+WebCache.h"
 #import "PSWeaker.h"
@@ -278,8 +278,12 @@ UICollectionViewDelegateFlowLayout>
         layout.minimumInteritemSpacing = 0;
         layout.minimumLineSpacing = 0;
     }
-    NSBundle *bundle = [NSBundle bundleForClass:self.class];
-    [self registerNib:[UINib nibWithNibName:REUSE_IDENTIFIER bundle:bundle] forCellWithReuseIdentifier:REUSE_IDENTIFIER];
+    NSBundle *frameworkBundle = [NSBundle bundleForClass:self.class];
+    NSURL *bundleURL = [frameworkBundle URLForResource:PSCarouselView.description
+                                withExtension:@"bundle"];
+    NSBundle *resourceBundle = [NSBundle bundleWithURL:bundleURL];
+    UINib *nib = [UINib nibWithNibName:REUSE_IDENTIFIER bundle:resourceBundle];
+    [self registerNib:nib forCellWithReuseIdentifier:REUSE_IDENTIFIER];
     [self registerNofitication];
 }
 

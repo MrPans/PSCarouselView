@@ -9,7 +9,7 @@
 
 
 #import "ViewController.h"
-#import "PSCarouselView.h"
+#import <PSCarouselView/PSCarouselView.h>
 #import "Macros.h"
 
 @interface ViewController ()<PSCarouselDelegate>

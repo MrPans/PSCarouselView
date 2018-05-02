@@ -1,0 +1,6 @@
+framework module PSCarouselView {
+  umbrella header "PSCarouselView-umbrella.h"
+
+  export *
+  module * { export * }
+}

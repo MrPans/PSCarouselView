@@ -1,17 +1,25 @@
 PODS:
-  - FBRetainCycleDetector (0.1.2)
-  - SDWebImage (3.8.1):
-    - SDWebImage/Core (= 3.8.1)
-  - SDWebImage/Core (3.8.1)
+  - PSCarouselView (1.6.1):
+    - SDWebImage
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
 
 DEPENDENCIES:
-  - FBRetainCycleDetector
-  - SDWebImage
+  - PSCarouselView (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  PSCarouselView:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  FBRetainCycleDetector: 45462f9ed1af0cd77224a4cc4e6dacaca47371b4
-  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  PSCarouselView: 424f04d4709a55416da8d58db70ef163fe7b2bf0
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
 
-PODFILE CHECKSUM: 1cbf987afea138385417148d8dfc0c68544bef7d
+PODFILE CHECKSUM: 90de61718878dd7dc6c25c5dff31dac4f953a3ba
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.5.0

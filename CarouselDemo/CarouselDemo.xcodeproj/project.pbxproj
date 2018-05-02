@@ -23,21 +23,17 @@
 /* Begin PBXBuildFile section */
 		3B007F301C605C4800380D27 /* DemoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B007F2F1C605C4800380D27 /* DemoCollectionViewController.m */; };
 		3B007F331C605C5800380D27 /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B007F321C605C5800380D27 /* DemoCollectionViewCell.m */; };
-		3B07E3881C5DF94F001F1C54 /* CarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B07E3871C5DF94F001F1C54 /* CarouselCell.m */; };
 		3B0ECD871B7CA1EF000E74F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ECD851B7CA1EF000E74F9 /* Main.storyboard */; };
 		3B0ECD891B7CA1EF000E74F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ECD881B7CA1EF000E74F9 /* Images.xcassets */; };
 		3B0ECD8C1B7CA1EF000E74F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ECD8A1B7CA1EF000E74F9 /* LaunchScreen.xib */; };
+		3B38B2E62099F0C2003FB42F /* CarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B07E3871C5DF94F001F1C54 /* CarouselCell.m */; };
 		3B4204B41C50AD22003CCB25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204B31C50AD22003CCB25 /* ViewController.m */; };
 		3B4204B91C50AD2C003CCB25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204B61C50AD2C003CCB25 /* AppDelegate.m */; };
 		3B4204BB1C50AD2C003CCB25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204B81C50AD2C003CCB25 /* main.m */; };
 		3B4204BF1C50AD3D003CCB25 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4204BE1C50AD3D003CCB25 /* DemoTableViewController.m */; };
-		3B4F00E71BF487450043EA5E /* PSCarouselCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4F00E31BF487450043EA5E /* PSCarouselCollectionCell.m */; };
-		3B4F00E91BF487450043EA5E /* PSCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4F00E61BF487450043EA5E /* PSCarouselView.m */; };
-		3B9C34931CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9C34921CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib */; };
 		3B9C35331CC4C51300E6FFAF /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C35321CC4C51300E6FFAF /* SwiftViewController.swift */; };
-		3BDE30951CFE81AA00F8FAF7 /* PSWeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE30941CFE81AA00F8FAF7 /* PSWeaker.m */; };
 		3BFDE4041D01D953006D047D /* PSCarouselViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDE4031D01D953006D047D /* PSCarouselViewTests.m */; };
-		AE3944CFC20E9165AAB6A947 /* libPods-CarouselDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC682FDA341F5B2481960BF /* libPods-CarouselDemo.a */; };
+		9240ABD970836CC5DD8AA225 /* Pods_CarouselDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D707F9D7E96E246A1DEB5048 /* Pods_CarouselDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +48,6 @@
 
 /* Begin PBXFileReference section */
 		171EEE2B714AB6C8CDAD7E67 /* Pods-CarouselDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarouselDemo/Pods-CarouselDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		1EC682FDA341F5B2481960BF /* libPods-CarouselDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarouselDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B007F2E1C605C4800380D27 /* DemoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewController.h; sourceTree = "<group>"; };
 		3B007F2F1C605C4800380D27 /* DemoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewController.m; sourceTree = "<group>"; };
 		3B007F311C605C5800380D27 /* DemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCell.h; sourceTree = "<group>"; };
@@ -72,18 +67,11 @@
 		3B4204B81C50AD2C003CCB25 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFile/main.m; sourceTree = "<group>"; };
 		3B4204BD1C50AD3D003CCB25 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
 		3B4204BE1C50AD3D003CCB25 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
-		3B4F00E21BF487450043EA5E /* PSCarouselCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCarouselCollectionCell.h; sourceTree = "<group>"; };
-		3B4F00E31BF487450043EA5E /* PSCarouselCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSCarouselCollectionCell.m; sourceTree = "<group>"; };
-		3B4F00E51BF487450043EA5E /* PSCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCarouselView.h; sourceTree = "<group>"; };
-		3B4F00E61BF487450043EA5E /* PSCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSCarouselView.m; sourceTree = "<group>"; };
-		3B9C34921CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSCarouselCollectionCell.xib; sourceTree = "<group>"; };
-		3B9C35311CC4C51300E6FFAF /* CarouselDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarouselDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		3B9C35321CC4C51300E6FFAF /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftViewController.swift; path = CarouselWithSwift/SwiftViewController.swift; sourceTree = "<group>"; };
-		3BDE30931CFE81AA00F8FAF7 /* PSWeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWeaker.h; sourceTree = "<group>"; };
-		3BDE30941CFE81AA00F8FAF7 /* PSWeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWeaker.m; sourceTree = "<group>"; };
 		3BFDE4011D01D953006D047D /* PSCarouselViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSCarouselViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFDE4031D01D953006D047D /* PSCarouselViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSCarouselViewTests.m; sourceTree = "<group>"; };
 		3BFDE4051D01D953006D047D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D707F9D7E96E246A1DEB5048 /* Pods_CarouselDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarouselDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE45C7D93ABDFD2C8007C155 /* Pods-CarouselDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarouselDemo/Pods-CarouselDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3944CFC20E9165AAB6A947 /* libPods-CarouselDemo.a in Frameworks */,
+				9240ABD970836CC5DD8AA225 /* Pods_CarouselDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +97,7 @@
 		1516468F0BE27C03B4DA307A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1EC682FDA341F5B2481960BF /* libPods-CarouselDemo.a */,
+				D707F9D7E96E246A1DEB5048 /* Pods_CarouselDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,7 +105,6 @@
 		3B07E3851C5DF790001F1C54 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				3B9C35311CC4C51300E6FFAF /* CarouselDemo-Bridging-Header.h */,
 				3B07E3841C5DF78D001F1C54 /* Macros.h */,
 			);
 			name = Resource;
@@ -148,7 +135,6 @@
 			children = (
 				3B0ECD851B7CA1EF000E74F9 /* Main.storyboard */,
 				3B0ECD881B7CA1EF000E74F9 /* Images.xcassets */,
-				3B4F00E11BF487450043EA5E /* PSCarouselView */,
 				3B0ECDA81B7CA378000E74F9 /* Demo */,
 				3B0ECD7B1B7CA1EF000E74F9 /* Supporting Files */,
 			);
@@ -210,20 +196,6 @@
 			path = CarouselInCollectionView;
 			sourceTree = "<group>";
 		};
-		3B4F00E11BF487450043EA5E /* PSCarouselView */ = {
-			isa = PBXGroup;
-			children = (
-				3B4F00E51BF487450043EA5E /* PSCarouselView.h */,
-				3B4F00E61BF487450043EA5E /* PSCarouselView.m */,
-				3B4F00E21BF487450043EA5E /* PSCarouselCollectionCell.h */,
-				3B4F00E31BF487450043EA5E /* PSCarouselCollectionCell.m */,
-				3B9C34921CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib */,
-				3BDE30931CFE81AA00F8FAF7 /* PSWeaker.h */,
-				3BDE30941CFE81AA00F8FAF7 /* PSWeaker.m */,
-			);
-			path = PSCarouselView;
-			sourceTree = SOURCE_ROOT;
-		};
 		3BFDE4021D01D953006D047D /* PSCarouselViewTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,8 +225,7 @@
 				3B0ECD741B7CA1EF000E74F9 /* Sources */,
 				3B0ECD751B7CA1EF000E74F9 /* Frameworks */,
 				3B0ECD761B7CA1EF000E74F9 /* Resources */,
-				767921320F3CBFCE5BA0222E /* [CP] Embed Pods Frameworks */,
-				16F5F2B396D28F8FFFA2AEE4 /* [CP] Copy Pods Resources */,
+				85D6399E264AFFA30E971B8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -334,7 +305,6 @@
 			files = (
 				3B0ECD871B7CA1EF000E74F9 /* Main.storyboard in Resources */,
 				3B0ECD8C1B7CA1EF000E74F9 /* LaunchScreen.xib in Resources */,
-				3B9C34931CC0A9A400E6FFAF /* PSCarouselCollectionCell.xib in Resources */,
 				3B0ECD891B7CA1EF000E74F9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,21 +319,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16F5F2B396D28F8FFFA2AEE4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarouselDemo/Pods-CarouselDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3B13B3D81CDCA09800E7F6A3 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,15 +332,20 @@
 			shellPath = /bin/sh;
 			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"Shengpan\";\ncompanyID=\"net.shengpan\";\ncompanyURL=\"http://shengpan.net\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"./doc\";\n# End constants\n\n/usr/local/bin/appledoc \\\n--project-name \"PSCarouselView\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--no-create-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n./PSCarouselView \\\n#\"${PROJECT_DIR}\"\n";
 		};
-		767921320F3CBFCE5BA0222E /* [CP] Embed Pods Frameworks */ = {
+		85D6399E264AFFA30E971B8D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CarouselDemo/Pods-CarouselDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PSCarouselView/PSCarouselView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PSCarouselView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -398,13 +358,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarouselDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -414,16 +377,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B38B2E62099F0C2003FB42F /* CarouselCell.m in Sources */,
 				3B9C35331CC4C51300E6FFAF /* SwiftViewController.swift in Sources */,
 				3B4204B91C50AD2C003CCB25 /* AppDelegate.m in Sources */,
 				3B4204B41C50AD22003CCB25 /* ViewController.m in Sources */,
-				3B4F00E91BF487450043EA5E /* PSCarouselView.m in Sources */,
 				3B007F301C605C4800380D27 /* DemoCollectionViewController.m in Sources */,
 				3B4204BF1C50AD3D003CCB25 /* DemoTableViewController.m in Sources */,
-				3B07E3881C5DF94F001F1C54 /* CarouselCell.m in Sources */,
-				3B4F00E71BF487450043EA5E /* PSCarouselCollectionCell.m in Sources */,
 				3B007F331C605C5800380D27 /* DemoCollectionViewCell.m in Sources */,
-				3BDE30951CFE81AA00F8FAF7 /* PSWeaker.m in Sources */,
 				3B4204BB1C50AD2C003CCB25 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,7 +525,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.shengpan.PSCarouselView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "CarouselDemo/CarouselDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -584,7 +543,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.shengpan.PSCarouselView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "CarouselDemo/CarouselDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

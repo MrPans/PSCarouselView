@@ -4,8 +4,8 @@
 # use_frameworks!
 
 target 'CarouselDemo' do
-	
-pod 'FBRetainCycleDetector'
-pod 'SDWebImage'
+	use_frameworks!
+    pod 'PSCarouselView', :path => '../'
+
 end
 
