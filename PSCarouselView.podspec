@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PSCarouselView"
-  s.version      = "1.6.0"
+  s.version      = "1.6.1"
   s.summary      = "A drop-in carousel view. Most of Apps put it in their first screen."
   s.description  = <<-DESC
                     A drop-in carousel view. Most of Apps put it in their first screen.Ease use and quick compose.
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source       = { :git => "https://github.com/DeveloperPans/PSCarouselView.git", :tag => s.version.to_s }
   s.source_files = 'CarouselDemo/PSCarouselView/**/*.{h,m}'
-  s.resource = "CarouselDemo/PSCarouselView/*.xib"
+  s.resource_bundle = { 'MapBox' => 'CarouselDemo/PSCarouselView/*.xib' }
   s.frameworks = 'UIKit'
   s.dependency 'SDWebImage'
 
