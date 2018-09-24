@@ -96,7 +96,7 @@ For more，download and see the demo。
 
 [travis]: (https://travis-ci.org/DeveloperPans/PSCarouselView)
 
-[docs]: https://img.shields.io/cocoapods/metrics/doc-percent/PSCarouselView.svg
+[docs]: https://img.shields.io/badge/docs-100%25-brightgreen.svg
 
 [version]: https://img.shields.io/cocoapods/v/PSCarouselView.svg?style=flat
 
